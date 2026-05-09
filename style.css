@@ -364,7 +364,36 @@ button:hover{
 
 .bio-download table{
 
-  line-height:2;
+  width:100%;
+
+  border-collapse:collapse;
+
+  margin-top:10px;
+
+  font-size:32px;
+}
+.bio-download td{
+
+  padding:8px 0;
+
+  vertical-align:top;
+}
+
+.bio-download td:nth-child(1){
+
+  width:220px;
+}
+
+.bio-download td:nth-child(2){
+
+  width:30px;
+
+  text-align:center;
+}
+
+.bio-download td:nth-child(3){
+
+  font-weight:700;
 }
 
 .text-kelulusan{
