@@ -317,7 +317,7 @@ function downloadKartu(){
 
   const kartu =
   document.getElementById(
-    "kartuKelulusan"
+    "downloadArea"
   );
 
   html2canvas(kartu).then(canvas => {
