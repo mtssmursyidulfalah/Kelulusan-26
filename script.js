@@ -1,4 +1,6 @@
-const waktuBuka = new Date("2026-06-02T10:00:00+07:00");
+const targetDate = new Date(
+  "2025-01-01T10:00:00+07:00"
+);
 
 let angka1 = 0;
 let angka2 = 0;
