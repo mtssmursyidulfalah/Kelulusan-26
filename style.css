@@ -174,3 +174,16 @@ button{
 button:hover{
   transform:scale(1.02);
 }
+.angkatan{
+  margin-top:15px;
+  font-size:18px;
+  font-weight:600;
+  line-height:1.8;
+  color:#93c5fd;
+}
+
+.madrasah{
+  margin-top:15px;
+  font-size:20px;
+  font-weight:700;
+}
