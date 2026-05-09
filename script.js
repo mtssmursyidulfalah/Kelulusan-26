@@ -143,8 +143,16 @@ document.body.innerHTML = `
 
   <img
     src="assets/${data.nisn}.jpg"
-    class="foto-siswa"
-  >
+    <img
+  src="assets/${data.nisn}.jpg"
+
+  onerror="
+  this.onerror=null;
+  this.src='assets/default.jpg';
+  "
+
+  class="foto-siswa"
+>
 
   <h1>
     ${data.nama}
@@ -249,8 +257,16 @@ dan teruslah mengejar cita-cita dengan doa dan kerja kera
 
       <img
         src="assets/${data.nisn}.jpg"
-        class="foto-download"
-      >
+        <img
+  src="assets/${data.nisn}.jpg"
+
+  onerror="
+  this.onerror=null;
+  this.src='assets/default.jpg';
+  "
+
+  class="foto-download"
+>
 
       <div class="bio-download">
 
