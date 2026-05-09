@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>
+Converter Excel Kelulusan
+</title>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+
+<style>
+
+body{
+
+  font-family:Arial;
+
+  background:#0f172a;
+
+  color:white;
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+  min-height:100vh;
+
+  margin:0;
+}
+
+.card{
+
+  width:90%;
+  max-width:500px;
+
+  background:
+  rgba(255,255,255,0.08);
+
+  padding:30px;
+
+  border-radius:25px;
+
+  text-align:center;
+}
+
+input{
+
+  margin-top:20px;
+}
+
+button{
+
+  margin-top:20px;
+
+  padding:14px 25px;
+
+  border:none;
+
+  border-radius:12px;
+
+  background:#2563eb;
+
+  color:white;
+
+  font-size:16px;
+
+  cursor:pointer;
+}
+
+</style>
+
+</head>
+<body>
+
+<div class="card">
+
+  <h1>
+    Converter Excel Kelulusan
+  </h1>
+
+  <p>
+    Upload file Excel siswa
+  </p>
+
+  <input
+    type="file"
+    id="excelFile"
+    accept=".xlsx,.xls"
+  >
+
+  <br>
+
+  <button onclick="convertExcel()">
+    CONVERT KE DATA.JS
+  </button>
+
+</div>
+
+<script>
+
+function convertExcel(){
+
+  const file =
+  document.getElementById(
+    "excelFile"
+  ).files[0];
+
+  if(!file){
+
+    alert("Pilih file Excel dulu");
+
+    return;
+  }
+
+  const reader =
+  new FileReader();
+
+  reader.onload = function(e){
+
+    const data =
+    new Uint8Array(e.target.result);
+
+    const workbook =
+    XLSX.read(data,{
+      type:'array'
+    });
+
+    const sheet =
+    workbook.Sheets[
+      workbook.SheetNames[0]
+    ];
+
+    const json =
+    XLSX.utils.sheet_to_json(sheet);
+
+    const hasil =
+    "const siswa = " +
+    JSON.stringify(
+      json,
+      null,
+      2
+    );
+
+    const blob =
+    new Blob(
+      [hasil],
+      {
+        type:"text/javascript"
+      }
+    );
+
+    const link =
+    document.createElement("a");
+
+    link.href =
+    URL.createObjectURL(blob);
+
+    link.download =
+    "data.js";
+
+    link.click();
+
+  };
+
+  reader.readAsArrayBuffer(file);
+
+}
+
+</script>
+
+</body>
+</html>
