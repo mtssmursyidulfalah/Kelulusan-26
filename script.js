@@ -22,10 +22,6 @@ function updateCountdown(){
     countdown.innerHTML =
       "Pengumuman Sudah Dibuka";
 
-    loginBox.style.display = "block";
-
-    infoText.style.display = "none";
-
     return;
   }
 
@@ -81,7 +77,23 @@ function cekKelulusan(){
     return;
   }
 
+  const now = new Date();
+
+  if(now < targetDate){
+
+    const buka =
+    targetDate.toLocaleString(
+      "id-ID"
+    );
+
+    alert(
+      "Pengumuman belum dibuka"
+    );
+
+    return;
+  }
+
   alert(
-    "Login berhasil (sementara)"
+    "Login berhasil"
   );
 }
