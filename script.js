@@ -2,51 +2,78 @@ const targetDate = new Date(
   "2026-06-02T10:00:00+07:00"
 );
 
-const countdown =
-document.getElementById("countdown");
-
 const loginBox =
 document.getElementById("loginBox");
 
-const infoText =
-document.getElementById("infoText");
+if(now < targetDate){
 
-function updateCountdown(){
+  const buka =
+  targetDate.toLocaleString(
+    "id-ID"
+  );
 
-  const now = new Date();
+  document.body.innerHTML = `
 
-  const diff = targetDate - now;
+  <div class="glow"></div>
+  <div class="glow"></div>
 
-  if(diff <= 0){
+  <div class="card">
 
-    countdown.innerHTML =
-      "Pengumuman Sudah Dibuka";
+    <img
+      src="assets/logo.png"
+      class="logo"
+    >
 
-    return;
-  }
+    <h1>
+      PENGUMUMAN BELUM DIBUKA
+    </h1>
 
-  const days =
-    Math.floor(diff/(1000*60*60*24));
+    <div id="countdown"></div>
 
-  const hours =
-    Math.floor((diff/(1000*60*60))%24);
+    <div class="info">
+      Pengumuman akan dibuka pada<br>
+      02 Juni 2026 Jam 10.00 WIB
+    </div>
 
-  const minutes =
-    Math.floor((diff/(1000*60))%60);
+  </div>
 
-  const seconds =
-    Math.floor((diff/1000)%60);
+  `;
 
-  countdown.innerHTML =
+  function updateCountdown(){
+
+    const now2 = new Date();
+
+    const diff =
+    targetDate - now2;
+
+    const days =
+      Math.floor(diff/(1000*60*60*24));
+
+    const hours =
+      Math.floor((diff/(1000*60*60))%24);
+
+    const minutes =
+      Math.floor((diff/(1000*60))%60);
+
+    const seconds =
+      Math.floor((diff/1000)%60);
+
+    document.getElementById(
+      "countdown"
+    ).innerHTML =
+
     `${days} Hari<br>
      ${hours} Jam
      ${minutes} Menit
      ${seconds} Detik`;
+  }
+
+  setInterval(updateCountdown,1000);
+
+  updateCountdown();
+
+  return;
 }
-
-setInterval(updateCountdown,1000);
-
-updateCountdown();
 
 let angka1 =
 Math.floor(Math.random()*10);
