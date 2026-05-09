@@ -260,3 +260,167 @@ button:hover{
   box-shadow:
   0 0 20px rgba(34,197,94,0.7);
 }
+#downloadArea{
+  position:absolute;
+  left:-9999px;
+  top:0;
+}
+
+.download-card{
+
+  width:1200px;
+
+  background:white;
+
+  color:black;
+
+  padding:30px;
+
+  font-family:Arial;
+}
+
+.top-download{
+
+  display:flex;
+
+  align-items:center;
+
+  gap:20px;
+}
+
+.logo-download{
+  width:110px;
+}
+
+.header-download h1{
+
+  margin:0;
+
+  font-size:54px;
+}
+
+.header-download h2{
+
+  margin:0;
+
+  font-size:32px;
+}
+
+.header-download p{
+
+  margin-top:10px;
+
+  font-size:24px;
+}
+
+.line-blue{
+
+  height:30px;
+
+  margin-top:20px;
+
+  background:
+  linear-gradient(
+    to right,
+    #0ea5e9,
+    #1e3a8a
+  );
+}
+
+.judul-download{
+
+  text-align:center;
+
+  margin:30px 0;
+
+  font-size:42px;
+
+  font-weight:700;
+
+  line-height:1.5;
+}
+
+.content-download{
+
+  display:flex;
+
+  gap:50px;
+}
+
+.foto-download{
+
+  width:250px;
+  height:330px;
+
+  object-fit:cover;
+}
+
+.bio-download{
+
+  flex:1;
+
+  font-size:28px;
+}
+
+.bio-download table{
+
+  line-height:2;
+}
+
+.text-kelulusan{
+
+  margin-top:40px;
+
+  line-height:1.8;
+}
+
+.status-download{
+
+  margin-top:30px;
+
+  background:
+  linear-gradient(
+    to right,
+    #00ff00,
+    #00aa22
+  );
+
+  color:white;
+
+  text-align:center;
+
+  padding:15px;
+
+  font-size:56px;
+
+  font-weight:700;
+}
+
+.nilai-download{
+
+  margin-top:30px;
+
+  text-align:center;
+
+  font-size:34px;
+}
+
+.nilai-box{
+
+  margin-top:10px;
+
+  padding:12px;
+
+  background:
+  linear-gradient(
+    to right,
+    #0ea5e9,
+    #1e3a8a
+  );
+
+  color:white;
+
+  font-size:52px;
+
+  font-weight:700;
+}
