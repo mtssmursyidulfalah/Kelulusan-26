@@ -120,7 +120,32 @@ function cekKelulusan(){
     return;
   }
 
+const nisn =
+document.getElementById(
+  "nisn"
+).value.trim();
+
+const tanggal =
+document.getElementById(
+  "tanggal"
+).value.trim();
+
+const data = siswa.find(
+  s =>
+  s.nisn === nisn &&
+  s.tanggal === tanggal
+);
+
+if(!data){
+
   alert(
-    "Login berhasil"
+    "Data siswa tidak ditemukan"
   );
+
+  return;
+}
+
+alert(
+  "Login berhasil"
+);
 }
