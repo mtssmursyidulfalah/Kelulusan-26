@@ -1,144 +1,39 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
+
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Pengumuman Kelulusan 2026</title>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <title>
+    Pengumuman Kelulusan 2026
+  </title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  >
 
-  <style>
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
 
-    *{
-      margin:0;
-      padding:0;
-      box-sizing:border-box;
-    }
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
 
-    body{
-      min-height:100vh;
-      display:flex;
-      justify-content:center;
-      align-items:center;
-      padding:20px;
-      overflow:hidden;
-      font-family:'Poppins',sans-serif;
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
 
-      background:
-      linear-gradient(
-        135deg,
-        #0f172a,
-        #1e3a8a,
-        #2563eb
-      );
-    }
-
-    .glow{
-      position:absolute;
-      width:500px;
-      height:500px;
-      background:#3b82f6;
-      border-radius:50%;
-      filter:blur(120px);
-      opacity:0.3;
-    }
-
-    .glow:nth-child(1){
-      top:-150px;
-      left:-150px;
-    }
-
-    .glow:nth-child(2){
-      bottom:-150px;
-      right:-150px;
-    }
-
-    .card{
-      position:relative;
-      z-index:2;
-
-      width:100%;
-      max-width:520px;
-
-      padding:40px 30px;
-
-      border-radius:30px;
-
-      background:rgba(255,255,255,0.08);
-
-      border:1px solid rgba(255,255,255,0.2);
-
-      backdrop-filter:blur(20px);
-
-      text-align:center;
-
-      color:white;
-
-      box-shadow:
-      0 10px 40px rgba(0,0,0,0.4);
-    }
-
-    .logo{
-      width:120px;
-      margin-bottom:20px;
-    }
-
-    h1{
-      font-size:30px;
-      font-weight:700;
-    }
-
-    .yayasan{
-      margin-top:10px;
-      font-size:14px;
-      opacity:0.9;
-    }
-
-    .alamat{
-      margin-top:10px;
-      line-height:1.7;
-      font-size:13px;
-      opacity:0.8;
-    }
-
-    .countdown-title{
-      margin-top:30px;
-      font-size:22px;
-      font-weight:600;
-    }
-
-    #countdown{
-      margin-top:15px;
-      font-size:32px;
-      font-weight:700;
-      color:#93c5fd;
-      line-height:1.5;
-    }
-
-    .info{
-      margin-top:20px;
-      font-size:14px;
-      line-height:1.8;
-      opacity:0.9;
-    }
-
-    @media(max-width:600px){
-
-      h1{
-        font-size:24px;
-      }
-
-      #countdown{
-        font-size:24px;
-      }
-
-    }
-
-  </style>
 </head>
 <body>
 
@@ -157,7 +52,8 @@
   </h1>
 
   <div class="yayasan">
-    Yayasan Pesantren Islam Mursyidul Falah
+    Yayasan Pesantren Islam
+    Mursyidul Falah
   </div>
 
   <div class="alamat">
@@ -180,53 +76,7 @@
 
 </div>
 
-<script>
-
-const targetDate = new Date(
-  "2026-06-02T10:00:00+07:00"
-);
-
-function updateCountdown(){
-
-  const now = new Date();
-
-  const diff = targetDate - now;
-
-  const countdown =
-    document.getElementById("countdown");
-
-  if(diff <= 0){
-
-    countdown.innerHTML =
-      "Pengumuman Sudah Dibuka";
-
-    return;
-  }
-
-  const days =
-    Math.floor(diff/(1000*60*60*24));
-
-  const hours =
-    Math.floor((diff/(1000*60*60))%24);
-
-  const minutes =
-    Math.floor((diff/(1000*60))%60);
-
-  const seconds =
-    Math.floor((diff/1000)%60);
-
-  countdown.innerHTML =
-    `${days} Hari<br>
-     ${hours} Jam
-     ${minutes} Menit
-     ${seconds} Detik`;
-}
-
-setInterval(updateCountdown,1000);
-
-updateCountdown();
-
-</script>
+<script src="script.js"></script>
 
 </body>
 </html>
