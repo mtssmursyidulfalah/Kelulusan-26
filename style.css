@@ -236,3 +236,27 @@ button:hover{
 
   color:#93c5fd;
 }
+.status-lulus{
+
+  display:inline-block;
+
+  margin-top:10px;
+
+  padding:10px 20px;
+
+  border-radius:30px;
+
+  background:
+  linear-gradient(
+    to right,
+    #16a34a,
+    #22c55e
+  );
+
+  color:white;
+
+  font-weight:700;
+
+  box-shadow:
+  0 0 20px rgba(34,197,94,0.7);
+}
