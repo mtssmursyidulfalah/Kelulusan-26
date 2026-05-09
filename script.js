@@ -186,14 +186,122 @@ dan teruslah mengejar cita-cita dengan doa dan kerja kera
 
   </div>
 
-  <div class="kepsek">
+  <div class="kepala sekolah">
     Abdul Latip, S.Pd.I
   </div>
 
   <button onclick="downloadKartu()">
     DOWNLOAD KARTU JPG
   </button>
+<div id="downloadArea">
 
+  <div class="download-card">
+
+    <div class="top-download">
+
+      <img
+        src="assets/logo.png"
+        class="logo-download"
+      >
+
+      <div class="header-download">
+
+        <h2>
+          YAYASAN PESANTREN ISLAM
+          MURSYIDUL FALAH
+        </h2>
+
+        <h1>
+          MTSS MURSYIDUL FALAH
+        </h1>
+
+        <p>
+          Dusun Campea Desa Kampungsawah
+          Kec. Jayakerta Karawang
+        </p>
+
+      </div>
+
+    </div>
+
+    <div class="line-blue"></div>
+
+    <div class="judul-download">
+
+      PENGUMUMAN KELULUSAN KELAS AKHIR
+      <br>
+
+      ANGKATAN KE 37
+      TAHUN PELAJARAN 2025/2026
+
+    </div>
+
+    <div class="content-download">
+
+      <img
+        src="assets/${data.nisn}.jpg"
+        class="foto-download"
+      >
+
+      <div class="bio-download">
+
+        <table>
+
+          <tr>
+            <td>NISN</td>
+            <td>:</td>
+            <td>
+              <b>${data.nisn}</b>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Nama</td>
+            <td>:</td>
+            <td>
+              <b>${data.nama}</b>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Tanggal Lahir</td>
+            <td>:</td>
+            <td>
+              <b>${data.tanggal}</b>
+            </td>
+          </tr>
+
+        </table>
+
+        <div class="text-kelulusan">
+
+          Berdasarkan hasil rapat kepala
+          madrasah bersama dewan guru,
+          siswa tersebut dinyatakan :
+
+        </div>
+
+        <div class="status-download">
+          LULUS
+        </div>
+
+        <div class="nilai-download">
+
+          Dengan nilai Rata-rata :
+
+          <div class="nilai-box">
+            ${data.nilai}
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
 </div>
 
 `;
