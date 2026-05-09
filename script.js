@@ -205,3 +205,26 @@ confetti({
 });
 
 }
+function downloadKartu(){
+
+  const kartu =
+  document.getElementById(
+    "kartuKelulusan"
+  );
+
+  html2canvas(kartu).then(canvas => {
+
+    const link =
+    document.createElement("a");
+
+    link.download =
+    "kartu-kelulusan.jpg";
+
+    link.href =
+    canvas.toDataURL("image/jpeg");
+
+    link.click();
+
+  });
+
+}
