@@ -69,10 +69,45 @@
     Loading...
   </div>
 
-  <div class="info">
-    Pengumuman akan dibuka pada<br>
-    02 Juni 2026 Jam 10.00 WIB
+ <div class="info" id="infoText">
+  Pengumuman akan dibuka pada<br>
+  02 Juni 2026 Jam 10.00 WIB
+</div>
+
+<div
+  id="loginBox"
+  style="display:none;"
+>
+
+  <input
+    type="text"
+    id="nisn"
+    placeholder="Masukkan NISN"
+  >
+
+  <input
+    type="text"
+    id="tanggal"
+    placeholder="Tanggal Lahir (02-06-2010)"
+  >
+
+  <div class="captcha-area">
+
+    <div id="captchaText"></div>
+
+    <input
+      type="text"
+      id="captchaInput"
+      placeholder="Jawaban Captcha"
+    >
+
   </div>
+
+  <button onclick="cekKelulusan()">
+    CEK KELULUSAN
+  </button>
+
+</div>
 
 </div>
 
