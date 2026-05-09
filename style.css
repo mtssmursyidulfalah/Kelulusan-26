@@ -122,3 +122,55 @@ h1{
   }
 
 }
+#loginBox{
+  margin-top:25px;
+}
+
+input{
+  width:100%;
+  padding:14px;
+  border:none;
+  border-radius:12px;
+  margin-top:15px;
+  outline:none;
+  font-size:15px;
+}
+
+.captcha-area{
+  margin-top:20px;
+}
+
+#captchaText{
+  font-size:22px;
+  font-weight:700;
+  color:#93c5fd;
+  margin-bottom:10px;
+}
+
+button{
+  width:100%;
+  padding:14px;
+  border:none;
+  border-radius:12px;
+  margin-top:15px;
+
+  background:
+  linear-gradient(
+    to right,
+    #2563eb,
+    #3b82f6
+  );
+
+  color:white;
+
+  font-size:16px;
+  font-weight:600;
+
+  cursor:pointer;
+
+  transition:0.3s;
+}
+
+button:hover{
+  transform:scale(1.02);
+}
