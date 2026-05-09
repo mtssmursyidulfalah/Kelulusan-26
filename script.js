@@ -134,8 +134,61 @@ function cekKelulusan(){
     return;
   }
 
-  alert(
-    "Login berhasil"
-  );
+document.body.innerHTML = `
+
+<div class="glow"></div>
+<div class="glow"></div>
+
+<div class="card">
+
+  <img
+    src="assets/${data.nisn}.jpg"
+    class="foto-siswa"
+  >
+
+  <h1>
+    ${data.nama}
+  </h1>
+
+  <div class="angkatan">
+    ${data.kelas}
+  </div>
+
+  <div class="hasil-box">
+
+    <p>
+      <b>NISN:</b><br>
+      ${data.nisn}
+    </p>
+
+    <p>
+      <b>Status:</b><br>
+      ${data.status}
+    </p>
+
+    <p>
+      <b>Nilai Rata-Rata:</b><br>
+      ${data.nilai}
+    </p>
+
+  </div>
+
+  <div class="pesan">
+
+    Selamat bagi seluruh siswa
+    yang telah dinyatakan lulus.
+    Terimakasih telah berjuang
+    dan belajar dengan baik di
+    MTsS Mursyidul Falah.
+
+  </div>
+
+  <div class="kepsek">
+    Abdul Latip, S.Pd.I
+  </div>
+
+</div>
+
+`;
 
 }
