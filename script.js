@@ -139,7 +139,7 @@ document.body.innerHTML = `
 <div class="glow"></div>
 <div class="glow"></div>
 
-<div class="card">
+<div class="card" id="kartuKelulusan">
 
   <img
     src="assets/${data.nisn}.jpg"
@@ -163,7 +163,11 @@ document.body.innerHTML = `
 
     <p>
       <b>Status:</b><br>
-      ${data.status}
+
+      <span class="status-lulus">
+        ${data.status}
+      </span>
+
     </p>
 
     <p>
@@ -175,11 +179,10 @@ document.body.innerHTML = `
 
   <div class="pesan">
 
-    Selamat bagi seluruh siswa
-    yang telah dinyatakan lulus.
-    Terimakasih telah berjuang
-    dan belajar dengan baik di
-    MTsS Mursyidul Falah.
+Selamat bagi seluruh siswa yang telah dinyatakan lulus. 
+Terimakasih telah berjuang dan belajar dengan baik 
+di MTsS Mursyidul Falah. Jaga nama baik almamater 
+dan teruslah mengejar cita-cita dengan doa dan kerja kera
 
   </div>
 
@@ -187,8 +190,18 @@ document.body.innerHTML = `
     Abdul Latip, S.Pd.I
   </div>
 
+  <button onclick="downloadKartu()">
+    DOWNLOAD KARTU JPG
+  </button>
+
 </div>
 
 `;
+
+confetti({
+  particleCount:150,
+  spread:100,
+  origin:{ y:0.6 }
+});
 
 }
