@@ -190,7 +190,7 @@ document.body.innerHTML = `
 Selamat bagi seluruh siswa yang telah dinyatakan lulus. 
 Terimakasih telah berjuang dan belajar dengan baik 
 di MTsS Mursyidul Falah. Jaga nama baik almamater 
-dan teruslah mengejar cita-cita dengan doa dan kerja kera
+dan teruslah mengejar cita-cita dengan doa dan kerja keras
 
   </div>
 
