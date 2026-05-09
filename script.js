@@ -81,10 +81,29 @@ Math.floor(Math.random()*10);
 let angka2 =
 Math.floor(Math.random()*10);
 
-document.getElementById(
-  "captchaText"
-).innerHTML =
-`${angka1} + ${angka2} = ?`;
+function generateCaptcha(){
+
+  angka1 =
+  Math.floor(Math.random()*10);
+
+  angka2 =
+  Math.floor(Math.random()*10);
+
+  const captchaEl =
+  document.getElementById(
+    "captchaText"
+  );
+
+  if(captchaEl){
+
+    captchaEl.innerHTML =
+    `${angka1} + ${angka2} = ?`;
+
+  }
+
+}
+
+generateCaptcha();
 
 function cekKelulusan(){
 
@@ -100,7 +119,7 @@ function cekKelulusan(){
   ){
 
     alert("Captcha Salah");
-
+    generateCaptcha();
     return;
   }
 
