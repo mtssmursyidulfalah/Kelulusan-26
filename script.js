@@ -193,6 +193,15 @@ dan teruslah mengejar cita-cita dengan doa dan kerja kera
   <button onclick="downloadKartu()">
     DOWNLOAD KARTU JPG
   </button>
+
+  <div class="info-skl">
+
+  Untuk Surat Kelulusan,
+  silahkan tunggu info dari
+  walikelas masing-masing.
+
+</div>
+
 <div id="downloadArea">
 
   <div class="download-card">
