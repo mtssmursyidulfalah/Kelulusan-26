@@ -71,7 +71,7 @@ function cekKelulusan(){
 
   if(now < targetDate){
 
-    document.body.innerHTML = `
+    document..innerHTML = `
 
     <div class="glow"></div>
     <div class="glow"></div>
@@ -140,121 +140,137 @@ document.body.innerHTML = `
 <div class="glow"></div>
 
 <div
-class="hasil-container"
-id="kartuKelulusan">
+class="hasil-container">
 
-  <img
-    src="assets/${data.nisn}.jpg"
+<div
+id="kartuKelulusan"
+class="kartu-download">
 
-    onerror="
-    this.onerror=null;
- this.src='assets/default.jpg';
-    "
+  <div class="header-kartu">
 
-    class="foto-siswa"
-  >
+    <img
+    src="assets/logo.png"
+    class="logo-kartu">
 
-  <div class="nama-siswa">
-    ${data.nama}
-  </div>
+    <div class="judul-kartu">
 
-  <div class="kelas-siswa">
-    ${data.kelas}
-  </div>
+      <h1>
+        BUKTI KELULUSAN
+      </h1>
 
- <div class="card-info">
+      <p>
+        MTSS MURSYIDUL FALAH
+      </p>
 
-  <div class="nisn-title">
-    NISN
-  </div>
+      <span>
+        Tahun Pelajaran 2025/2026
+      </span>
 
-  <div class="nomor-nisn">
-    ${data.nisn}
-  </div>
-
-  <div class="keterangan">
-
-    Berdasarkan hasil rapat kepala
-    madrasah, siswa tersebut
-    dinyatakan :
+    </div>
 
   </div>
 
-  <div
-  class="
-  status
-  ${data.status === 'LULUS'
-  ?
-  'lulus'
-  :
-  'tidak-lulus'}
-  ">
+  <div class="isi-kartu">
 
-    ${data.status}
+    <div class="foto-area">
+
+      <img
+
+      src="assets/${data.nisn}.jpg"
+
+      onerror="
+      this.onerror=null;
+      this.src='assets/default.jpg';
+      "
+
+      class="foto-siswa"
+
+      >
+
+    </div>
+
+    <div class="data-area">
+
+      <div class="baris">
+
+        <span>Nama</span>
+
+        <b>${data.nama}</b>
+
+      </div>
+
+      <div class="baris">
+
+        <span>Kelas</span>
+
+        <b>${data.kelas}</b>
+
+      </div>
+
+      <div class="baris">
+
+        <span>NISN</span>
+
+        <b>${data.nisn}</b>
+
+      </div>
+
+      <div class="baris">
+
+        <span>Nilai</span>
+
+        <b>${data.nilai}</b>
+
+      </div>
+
+      <div
+      class="
+      status
+      ${data.status === 'LULUS'
+      ?
+      'lulus'
+      :
+      'tidak-lulus'}
+      ">
+
+        ${data.status}
+
+      </div>
+
+    </div>
 
   </div>
-
-  <div class="nilai-text">
-
-    Dengan Nilai Rata-rata :
-
-  </div>
-
-  <div class="nilai-angka">
-
-    ${data.nilai}
-
-  </div>
-
-</div>
 
   <div class="pesan">
 
-    Selamat bagi seluruh siswa
-    yang telah dinyatakan lulus.
+    Selamat atas kelulusan yang
+    telah diraih.
 
-    Terimakasih telah berjuang
-    dan belajar dengan baik di
-    MTsS Mursyidul Falah.
-
-    Jaga nama baik almamater
-    dan teruslah mengejar
-    cita-cita dengan doa dan
-    kerja keras.
+    Teruslah belajar,
+    berdoa dan menjadi pribadi
+    yang membanggakan.
 
   </div>
 
   <div class="kepala-sekolah">
+
     Abdul Latip, S.Pd.I
-  </div>
-
-  <button
-  class="download-btn"
-  onclick="downloadKartu()">
-
-    DOWNLOAD KARTU JPG
-
-  </button>
-
-  <div class="info-skl">
-
-    Untuk Surat Kelulusan,
-    silahkan tunggu info dari
-    wali kelas masing-masing.
 
   </div>
 
 </div>
 
+<button
+class="download-btn"
+onclick="downloadKartu()">
+
+DOWNLOAD KARTU JPG
+
+</button>
+
+</div>
+
 `;
-
-confetti({
-  particleCount:150,
-  spread:100,
-  origin:{ y:0.6 }
-});
-
-}
 function downloadKartu(){
 
   const kartu =
