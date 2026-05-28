@@ -350,11 +350,13 @@ function downloadKartu(){
     "kartuKelulusan"
   );
 
-  kartu.style.display = "block";
-
   html2canvas(kartu,{
 
-    scale:3
+    scale:3,
+
+    width:950,
+
+    windowWidth:950
 
   }).then(canvas => {
 
@@ -371,8 +373,6 @@ function downloadKartu(){
     );
 
     link.click();
-
-    kartu.style.display = "none";
 
   });
 
