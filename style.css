@@ -1057,8 +1057,8 @@ button:hover{
 
 #kartuKelulusan{
 
-  width:950px !important;
+  width:950px;
 
-  max-width:none !important;
+  max-width:950px;
 
 }
