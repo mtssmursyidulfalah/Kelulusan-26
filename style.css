@@ -556,8 +556,6 @@ button:hover{
 
 .status{
 
- .status{
-
   display:inline-block;
 
   padding:12px 35px;
@@ -569,8 +567,10 @@ button:hover{
   font-size:28px;
 
   font-weight:700;
-    
+
   text-align:center;
+
+  color:white;
 }
 
 .lulus{
@@ -608,11 +608,11 @@ button:hover{
 
 .nilai-angka{
 
-.nilai-angka{
-
   font-size:46px;
 
   font-weight:700;
+
+  margin-top:10px;
 }
 
 .kepala-sekolah{
