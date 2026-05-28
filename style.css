@@ -1062,3 +1062,13 @@ button:hover{
   max-width:950px;
 
 }
+
+#kartuKelulusan{
+
+  transform:none !important;
+
+  filter:none !important;
+
+  backdrop-filter:none !important;
+
+}
