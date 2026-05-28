@@ -69,9 +69,9 @@ function cekKelulusan(){
 
   const now = new Date();
 
-  if(now < targetDate){
+if(now < targetDate){
 
-    document..innerHTML = `
+    document.body.innerHTML = `
 
     <div class="glow"></div>
     <div class="glow"></div>
