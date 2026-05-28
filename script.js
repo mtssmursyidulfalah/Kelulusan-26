@@ -213,6 +213,7 @@ class="hasil-container">
 <div
 id="kartuKelulusan"
 class="kartu-download"
+style="display:none;">
 
   <div class="header-kartu">
 
@@ -361,7 +362,7 @@ function downloadKartu(){
     "kartuKelulusan"
   );
 
-  kartu.style.opacity = "1";
+  kartu.style.display = "block";
 
   html2canvas(kartu,{
 
@@ -373,7 +374,7 @@ function downloadKartu(){
 
   }).then(canvas => {
 
-    kartu.style.opacity = "0";
+    kartu.style.display = "none";
 
     const link =
     document.createElement("a");
