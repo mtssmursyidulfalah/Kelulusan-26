@@ -1077,16 +1077,24 @@ button:hover{
 
   position:fixed;
 
-  top:-9999px;
+  top:0;
 
-  left:-9999px;
+  left:0;
 
   width:950px;
-
-  z-index:-1;
 
   opacity:0;
 
   pointer-events:none;
 
+  z-index:-999;
+
 }
+.hasil-asli{
+
+  position:relative;
+
+  z-index:2;
+
+}
+
