@@ -213,7 +213,6 @@ class="hasil-container">
 <div
 id="kartuKelulusan"
 class="kartu-download"
-style="display:none;">
 
   <div class="header-kartu">
 
@@ -411,5 +410,16 @@ function downloadKartu(){
     });
 
   },500);
+
+}
+#kartuKelulusan{
+
+  position:absolute;
+
+  left:-9999px;
+
+  top:0;
+
+  width:950px;
 
 }
