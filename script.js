@@ -212,7 +212,8 @@ class="hasil-container">
 
 <div
 id="kartuKelulusan"
-class="kartu-download">
+class="kartu-download"
+style="display:none;">
 
   <div class="header-kartu">
 
@@ -349,6 +350,8 @@ function downloadKartu(){
     "kartuKelulusan"
   );
 
+  kartu.style.display = "block";
+
   html2canvas(kartu,{
 
     scale:3
@@ -368,6 +371,8 @@ function downloadKartu(){
     );
 
     link.click();
+
+    kartu.style.display = "none";
 
   });
 
