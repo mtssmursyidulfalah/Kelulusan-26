@@ -352,27 +352,32 @@ function downloadKartu(){
 
   html2canvas(kartu,{
 
-    scale:3,
+    scale:2,
 
-    width:950,
+    useCORS:true,
 
-    windowWidth:950
+    allowTaint:true
 
   }).then(canvas => {
 
-    const link =
-    document.createElement("a");
+    canvas.toBlob(function(blob){
 
-    link.download =
-    "kartu-kelulusan.jpg";
+      const link =
+      document.createElement("a");
 
-    link.href =
-    canvas.toDataURL(
-      "image/jpeg",
-      1.0
-    );
+      link.href =
+      URL.createObjectURL(blob);
 
-    link.click();
+      link.download =
+      "bukti-kelulusan.jpg";
+
+      link.click();
+
+      URL.revokeObjectURL(
+        link.href
+      );
+
+    },"image/jpeg",0.95);
 
   });
 
