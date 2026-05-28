@@ -252,10 +252,14 @@ function downloadKartu(){
 
   const kartu =
   document.getElementById(
-    "downloadArea"
+    "kartuKelulusan"
   );
 
-  html2canvas(kartu).then(canvas => {
+  html2canvas(kartu,{
+
+    scale:3
+
+  }).then(canvas => {
 
     const link =
     document.createElement("a");
@@ -264,7 +268,10 @@ function downloadKartu(){
     "kartu-kelulusan.jpg";
 
     link.href =
-    canvas.toDataURL("image/jpeg");
+    canvas.toDataURL(
+      "image/jpeg",
+      1.0
+    );
 
     link.click();
 
