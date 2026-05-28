@@ -345,35 +345,28 @@ DOWNLOAD KARTU JPG
 
 function downloadKartu(){
 
-  const kartu =
-  document.getElementById(
-    "kartuKelulusan"
-  );
+  html2canvas(
+    document.querySelector("#kartuKelulusan"),
+    {
+      scale:1,
+      useCORS:true
+    }
+  ).then(canvas => {
 
-  html2canvas(kartu,{
+    canvas.toBlob(function(blob){
 
-    scale:1,
+      const link =
+      document.createElement("a");
 
-    logging:false,
+      link.href =
+      URL.createObjectURL(blob);
 
-    useCORS:true,
+      link.download =
+      "bukti-kelulusan.png";
 
-    backgroundColor:"#ffffff"
+      link.click();
 
-  }).then(canvas => {
-
-    const file =
-    canvas.toDataURL("image/png");
-
-    const link =
-    document.createElement("a");
-
-    link.href = file;
-
-    link.download =
-    "bukti-kelulusan.png";
-
-    link.click();
+    },"image/png");
 
   });
 
