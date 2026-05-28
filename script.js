@@ -144,11 +144,11 @@ class="hasil-container"
 id="kartuKelulusan">
 
   <img
-    src="foto/${data.nisn}.jpg"
+    src="assets/${data.nisn}.jpg"
 
     onerror="
     this.onerror=null;
-    this.src='foto/default.png';
+ this.src='assets/default.jpg';
     "
 
     class="foto-siswa"
