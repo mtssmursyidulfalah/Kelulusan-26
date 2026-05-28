@@ -178,26 +178,32 @@ id="kartuKelulusan">
       siswa tersebut dinyatakan :
     </div>
 
-    <div class="
-      status
-      ${data.status === 'LULUS'
-      ?
-      'lulus'
-      :
-      'tidak-lulus'}
-    ">
+<div
+class="
+status
+${data.status === 'LULUS'
+?
+'lulus'
+:
+'tidak-lulus'}
+"
+>
 
-      ${data.status}
+${data.status}
 
-    </div>
+</div>
 
-    <div class="nilai-text">
-      Dengan Nilai Rata-rata :
-    </div>
+<div class="nilai-text">
 
-    <div class="nilai-angka">
-      ${data.nilai}
-    </div>
+Dengan Nilai Rata-rata :
+
+</div>
+
+<div class="nilai-angka">
+
+${data.nilai}
+
+</div>
 
   </div>
 
