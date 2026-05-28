@@ -162,50 +162,51 @@ id="kartuKelulusan">
     ${data.kelas}
   </div>
 
-  <div class="card-info">
+ <div class="card-info">
 
-    <div class="nisn-title">
-      NISN
-    </div>
+  <div class="nisn-title">
+    NISN
+  </div>
 
-    <div class="nomor-nisn">
-      ${data.nisn}
-    </div>
+  <div class="nomor-nisn">
+    ${data.nisn}
+  </div>
 
-    <div class="keterangan">
-      Berdasarkan hasil rapat
-      kepala madrasah,
-      siswa tersebut dinyatakan :
-    </div>
+  <div class="keterangan">
 
-<div
-class="
-status
-${data.status === 'LULUS'
-?
-'lulus'
-:
-'tidak-lulus'}
-"
->
-
-${data.status}
-
-</div>
-
-<div class="nilai-text">
-
-Dengan Nilai Rata-rata :
-
-</div>
-
-<div class="nilai-angka">
-
-${data.nilai}
-
-</div>
+    Berdasarkan hasil rapat kepala
+    madrasah, siswa tersebut
+    dinyatakan :
 
   </div>
+
+  <div
+  class="
+  status
+  ${data.status === 'LULUS'
+  ?
+  'lulus'
+  :
+  'tidak-lulus'}
+  ">
+
+    ${data.status}
+
+  </div>
+
+  <div class="nilai-text">
+
+    Dengan Nilai Rata-rata :
+
+  </div>
+
+  <div class="nilai-angka">
+
+    ${data.nilai}
+
+  </div>
+
+</div>
 
   <div class="pesan">
 
