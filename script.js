@@ -361,54 +361,33 @@ function downloadKartu(){
     "kartuKelulusan"
   );
 
-  const gambar =
-  kartu.querySelector("img");
+  kartu.style.opacity = "1";
 
-  if(gambar){
+  html2canvas(kartu,{
 
-    gambar.crossOrigin = "anonymous";
+    scale:2,
 
-  }
+    useCORS:true,
 
-  setTimeout(() => {
+    backgroundColor:null
 
-    html2canvas(kartu,{
+  }).then(canvas => {
 
-      scale:2,
+    kartu.style.opacity = "0";
 
-      useCORS:true,
+    const link =
+    document.createElement("a");
 
-      allowTaint:true,
+    link.download =
+    "bukti-kelulusan.png";
 
-      backgroundColor:null
+    link.href =
+    canvas.toDataURL(
+      "image/png"
+    );
 
-    }).then(canvas => {
+    link.click();
 
-      const image =
-      canvas.toDataURL(
-        "image/png"
-      );
-
-      const link =
-      document.createElement("a");
-
-      link.href = image;
-
-      link.download =
-      "bukti-kelulusan.png";
-
-      document.body.appendChild(
-        link
-      );
-
-      link.click();
-
-      document.body.removeChild(
-        link
-      );
-
-    });
-
-  },500);
+  });
 
 }
