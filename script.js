@@ -350,32 +350,58 @@ function downloadKartu(){
     "kartuKelulusan"
   );
 
-  html2canvas(kartu,{
+  const gambar =
+  kartu.getElementsByTagName("img");
 
-    scale:2,
+  Promise.all(
+    Array.from(gambar).map(img => {
 
-    useCORS:true,
+      if(img.complete)
+      return Promise.resolve();
 
-    backgroundColor:"#ffffff"
+      return new Promise(resolve => {
 
-  }).then(canvas => {
+        img.onload = resolve;
+        img.onerror = resolve;
 
-    const link =
-    document.createElement("a");
+      });
 
-    link.href =
-    canvas.toDataURL(
-      "image/png"
-    );
+    })
 
-    link.download =
-    "bukti-kelulusan.png";
+  ).then(() => {
 
-    document.body.appendChild(link);
+    html2canvas(kartu,{
 
-    link.click();
+      scale:2,
 
-    document.body.removeChild(link);
+      useCORS:true,
+
+      allowTaint:true,
+
+      backgroundColor:"#ffffff"
+
+    }).then(canvas => {
+
+      const image =
+      canvas.toDataURL(
+        "image/png"
+      );
+
+      const link =
+      document.createElement("a");
+
+      link.href = image;
+
+      link.download =
+      "bukti-kelulusan.png";
+
+      document.body.appendChild(link);
+
+      link.click();
+
+      document.body.removeChild(link);
+
+    });
 
   });
 
