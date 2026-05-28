@@ -5,7 +5,7 @@ const siswa = [
     "nama": "AFIPAH",
     "kelas": "IX A",
     "status": "LULUS",
-    "nilai": 91.35
+    "nilai": "88,11"
   },
   {
     "nisn": "0127857534",
@@ -13,7 +13,7 @@ const siswa = [
     "nama": "CITRA SHAFA BILA",
     "kelas": "IX A",
     "status": "LULUS",
-    "nilai": 84.63
+    "nilai": "88,47"
   },
   {
     "nisn": "0109518830",
@@ -21,7 +21,7 @@ const siswa = [
     "nama": "DAFA MAULIDAH",
     "kelas": "IX A",
     "status": "LULUS",
-    "nilai": 91.34
+    "nilai": "87,70"
   },
   {
     "nisn": "0115861717",
@@ -29,7 +29,7 @@ const siswa = [
     "nama": "FIKROH KAMILLAH",
     "kelas": "IX A",
     "status": "LULUS",
-    "nilai": 86.23
+    "nilai": "89,76"
   },
   {
     "nisn": "3117483730",
@@ -37,7 +37,7 @@ const siswa = [
     "nama": "HILMA KHOERUN NISA",
     "kelas": "IX A",
     "status": "LULUS",
-    "nilai": 86.31
+    "nilai": "89,29"
   },
   {
     "nisn": "0115495757",
@@ -45,7 +45,7 @@ const siswa = [
     "nama": "HUSNA SYIFATUL ULYA SALSABILAH",
     "kelas": "IX A",
     "status": "LULUS",
-    "nilai": 81.14
+    "nilai": "89,64"
   },
   {
     "nisn": "0101545533",
@@ -53,7 +53,7 @@ const siswa = [
     "nama": "IIS WARDATU SOLEHA",
     "kelas": "IX A",
     "status": "LULUS",
-    "nilai": 87.1
+    "nilai": "88,29"
   },
   {
     "nisn": "0114510620",
@@ -61,7 +61,7 @@ const siswa = [
     "nama": "KANZA AULIA",
     "kelas": "IX A",
     "status": "LULUS",
-    "nilai": 92.61
+    "nilai": "91"
   },
   {
     "nisn": "0112189703",
@@ -69,7 +69,7 @@ const siswa = [
     "nama": "LISA NURAJIJAH",
     "kelas": "IX A",
     "status": "LULUS",
-    "nilai": 95
+    "nilai": "88,94"
   },
   {
     "nisn": "0118937824",
@@ -77,7 +77,7 @@ const siswa = [
     "nama": "MARWAH",
     "kelas": "IX A",
     "status": "LULUS",
-    "nilai": 94.06
+    "nilai": "87,88"
   },
   {
     "nisn": "0115883820",
@@ -85,7 +85,7 @@ const siswa = [
     "nama": "NENI AENA LIDIANI",
     "kelas": "IX A",
     "status": "LULUS",
-    "nilai": 80.47
+    "nilai": "91,11"
   },
   {
     "nisn": "3112924759",
@@ -93,7 +93,7 @@ const siswa = [
     "nama": "NIDA NADHIROTUL MADINAH",
     "kelas": "IX A",
     "status": "LULUS",
-    "nilai": 80.85
+    "nilai": "87,47"
   },
   {
     "nisn": "0121570161",
@@ -101,7 +101,7 @@ const siswa = [
     "nama": "NURAENI",
     "kelas": "IX A",
     "status": "LULUS",
-    "nilai": 84.1
+    "nilai": "88,82"
   },
   {
     "nisn": "0116509505",
@@ -109,7 +109,7 @@ const siswa = [
     "nama": "PIA ADELIA",
     "kelas": "IX A",
     "status": "LULUS",
-    "nilai": 82.11
+    "nilai": "88,17"
   },
   {
     "nisn": "0111460217",
@@ -117,7 +117,7 @@ const siswa = [
     "nama": "PUTRI AYUNDA",
     "kelas": "IX A",
     "status": "LULUS",
-    "nilai": 86.27
+    "nilai": "87,94"
   },
   {
     "nisn": "0092946654",
@@ -125,7 +125,7 @@ const siswa = [
     "nama": "PUTRI RATNASARI",
     "kelas": "IX A",
     "status": "LULUS",
-    "nilai": 90.03
+    "nilai": "88,35"
   },
   {
     "nisn": "0112231342",
@@ -133,7 +133,7 @@ const siswa = [
     "nama": "RAHMA FAJRIYAH FURQON",
     "kelas": "IX A",
     "status": "LULUS",
-    "nilai": 93.13
+    "nilai": "88,41"
   },
   {
     "nisn": "0107630530",
@@ -141,7 +141,7 @@ const siswa = [
     "nama": "RAHMA HANIFAH",
     "kelas": "IX A",
     "status": "LULUS",
-    "nilai": 90.64
+    "nilai": "89,82"
   },
   {
     "nisn": "0111457998",
@@ -149,7 +149,7 @@ const siswa = [
     "nama": "RATU ADINDA CAMELIA",
     "kelas": "IX A",
     "status": "LULUS",
-    "nilai": 85.89
+    "nilai": "90,29"
   },
   {
     "nisn": "0116221620",
@@ -157,7 +157,7 @@ const siswa = [
     "nama": "RIFA PUJIANTI",
     "kelas": "IX A",
     "status": "LULUS",
-    "nilai": 90.3
+    "nilai": "88,29"
   },
   {
     "nisn": "3106981737",
@@ -165,7 +165,7 @@ const siswa = [
     "nama": "SITI ROMLAH",
     "kelas": "IX A",
     "status": "LULUS",
-    "nilai": 80.56
+    "nilai": "89,35"
   },
   {
     "nisn": "0101890984",
@@ -173,7 +173,7 @@ const siswa = [
     "nama": "SITI SULEHA",
     "kelas": "IX A",
     "status": "LULUS",
-    "nilai": 94.43
+    "nilai": "88,17"
   },
   {
     "nisn": "0119540395",
@@ -181,7 +181,7 @@ const siswa = [
     "nama": "SITI TIRONIKA",
     "kelas": "IX A",
     "status": "LULUS",
-    "nilai": 88.1
+    "nilai": "88,35"
   },
   {
     "nisn": "3127155391",
@@ -189,7 +189,7 @@ const siswa = [
     "nama": "SYAFA NURAENI",
     "kelas": "IX A",
     "status": "LULUS",
-    "nilai": 85.71
+    "nilai": "88,70"
   },
   {
     "nisn": "0109261707",
@@ -197,7 +197,7 @@ const siswa = [
     "nama": "TAZKIATUN NISWAH",
     "kelas": "IX A",
     "status": "LULUS",
-    "nilai": 92.41
+    "nilai": "88,58"
   },
   {
     "nisn": "0102087120",
@@ -205,7 +205,7 @@ const siswa = [
     "nama": "WAFA KAMILATUL HUDA",
     "kelas": "IX A",
     "status": "LULUS",
-    "nilai": 93.09
+    "nilai": "89,17"
   },
   {
     "nisn": "0104726556",
@@ -213,7 +213,7 @@ const siswa = [
     "nama": "ZAHRA AULIA",
     "kelas": "IX A",
     "status": "LULUS",
-    "nilai": 90.21
+    "nilai": "88,94"
   },
   {
     "nisn": "0116619840",
@@ -221,7 +221,7 @@ const siswa = [
     "nama": "ZAHRA PUTRI EL FARIZA",
     "kelas": "IX A",
     "status": "LULUS",
-    "nilai": 83.87
+    "nilai": "89,17"
   },
   {
     "nisn": "0117120337",
@@ -229,7 +229,7 @@ const siswa = [
     "nama": "ZARA ADHILA AULIANI",
     "kelas": "IX A",
     "status": "LULUS",
-    "nilai": 81.05
+    "nilai": "88,52"
   },
   {
     "nisn": "0112642873",
@@ -237,7 +237,7 @@ const siswa = [
     "nama": "ALIYA DESIKA",
     "kelas": "IX B",
     "status": "LULUS",
-    "nilai": 90.35
+    "nilai": "88,47"
   },
   {
     "nisn": "0119485751",
@@ -245,7 +245,7 @@ const siswa = [
     "nama": "DEWI VINSA",
     "kelas": "IX B",
     "status": "LULUS",
-    "nilai": 90.06
+    "nilai": "88,58"
   },
   {
     "nisn": "3119499862",
@@ -253,7 +253,7 @@ const siswa = [
     "nama": "DILA MAULIDA",
     "kelas": "IX B",
     "status": "LULUS",
-    "nilai": 87.24
+    "nilai": "88,82"
   },
   {
     "nisn": "0105837055",
@@ -261,7 +261,7 @@ const siswa = [
     "nama": "DIRA MIFTAHUL FAROHAH",
     "kelas": "IX B",
     "status": "LULUS",
-    "nilai": 90.03
+    "nilai": "90,17"
   },
   {
     "nisn": "0103164108",
@@ -269,7 +269,7 @@ const siswa = [
     "nama": "EVI SEPTIANI SUHENDAR",
     "kelas": "IX B",
     "status": "LULUS",
-    "nilai": 82.65
+    "nilai": "91,23"
   },
   {
     "nisn": "0127845296",
@@ -277,7 +277,7 @@ const siswa = [
     "nama": "IMELDA PUTRI ANJANI",
     "kelas": "IX B",
     "status": "LULUS",
-    "nilai": 84.92
+    "nilai": "88,35"
   },
   {
     "nisn": "0116668639",
@@ -285,7 +285,7 @@ const siswa = [
     "nama": "KARMILA",
     "kelas": "IX B",
     "status": "LULUS",
-    "nilai": 81.1
+    "nilai": "88,05"
   },
   {
     "nisn": "0116341938",
@@ -293,7 +293,7 @@ const siswa = [
     "nama": "KARMILA",
     "kelas": "IX B",
     "status": "LULUS",
-    "nilai": 85.33
+    "nilai": "88,41"
   },
   {
     "nisn": "3104065830",
@@ -301,7 +301,7 @@ const siswa = [
     "nama": "KOKOM KOMALA",
     "kelas": "IX B",
     "status": "LULUS",
-    "nilai": 89.76
+    "nilai": "84,52"
   },
   {
     "nisn": "0118232151",
@@ -309,7 +309,7 @@ const siswa = [
     "nama": "MARWAH HANIPATUL SABILAH",
     "kelas": "IX B",
     "status": "LULUS",
-    "nilai": 80.49
+    "nilai": "90,64"
   },
   {
     "nisn": "0111353687",
@@ -317,7 +317,7 @@ const siswa = [
     "nama": "MAYANG SARI",
     "kelas": "IX B",
     "status": "LULUS",
-    "nilai": 87.08
+    "nilai": "87,76"
   },
   {
     "nisn": "0106369277",
@@ -325,7 +325,7 @@ const siswa = [
     "nama": "NAJMA NURUL KAMILA",
     "kelas": "IX B",
     "status": "LULUS",
-    "nilai": 84.84
+    "nilai": "89,35"
   },
   {
     "nisn": "0116241470",
@@ -333,7 +333,7 @@ const siswa = [
     "nama": "NITA AMELIA",
     "kelas": "IX B",
     "status": "LULUS",
-    "nilai": 81.65
+    "nilai": "88,05"
   },
   {
     "nisn": "0105889169",
@@ -341,7 +341,7 @@ const siswa = [
     "nama": "PUTRI SALSA",
     "kelas": "IX B",
     "status": "LULUS",
-    "nilai": 85.19
+    "nilai": "88,76"
   },
   {
     "nisn": "0106789209",
@@ -349,7 +349,7 @@ const siswa = [
     "nama": "PUTRI VAZRIA",
     "kelas": "IX B",
     "status": "LULUS",
-    "nilai": 92.21
+    "nilai": "88,11"
   },
   {
     "nisn": "3113248995",
@@ -357,7 +357,7 @@ const siswa = [
     "nama": "PUTRIA AS SALWA",
     "kelas": "IX B",
     "status": "LULUS",
-    "nilai": 88.18
+    "nilai": "88,35"
   },
   {
     "nisn": "0113712306",
@@ -365,7 +365,7 @@ const siswa = [
     "nama": "QUEENZA NADA ALIFYA GOFUR",
     "kelas": "IX B",
     "status": "LULUS",
-    "nilai": 91.61
+    "nilai": "90,05"
   },
   {
     "nisn": "0115161659",
@@ -373,7 +373,7 @@ const siswa = [
     "nama": "RATU BILQIS AD'NUR",
     "kelas": "IX B",
     "status": "LULUS",
-    "nilai": 85.44
+    "nilai": "88,47"
   },
   {
     "nisn": "0107291499",
@@ -381,7 +381,7 @@ const siswa = [
     "nama": "RINDU AULIA RAMADANI",
     "kelas": "IX B",
     "status": "LULUS",
-    "nilai": 80.08
+    "nilai": "88,29"
   },
   {
     "nisn": "0114596961",
@@ -389,7 +389,7 @@ const siswa = [
     "nama": "SABRINA SIFATUN NAZWA",
     "kelas": "IX B",
     "status": "LULUS",
-    "nilai": 82.81
+    "nilai": "88,70"
   },
   {
     "nisn": "0104843423",
@@ -397,7 +397,7 @@ const siswa = [
     "nama": "SABRINA ZAMAN",
     "kelas": "IX B",
     "status": "LULUS",
-    "nilai": 86.33
+    "nilai": "89,47"
   },
   {
     "nisn": "0116949431",
@@ -405,7 +405,7 @@ const siswa = [
     "nama": "SAHLA PADILLATUNNISA",
     "kelas": "IX B",
     "status": "LULUS",
-    "nilai": 86.35
+    "nilai": "88,35"
   },
   {
     "nisn": "0102323027",
@@ -413,7 +413,7 @@ const siswa = [
     "nama": "SILFA SEPTIANA",
     "kelas": "IX B",
     "status": "LULUS",
-    "nilai": 88.1
+    "nilai": "89"
   },
   {
     "nisn": "0119350061",
@@ -421,7 +421,7 @@ const siswa = [
     "nama": "SINTIYA",
     "kelas": "IX B",
     "status": "LULUS",
-    "nilai": 85.17
+    "nilai": "88,23"
   },
   {
     "nisn": "0119732143",
@@ -429,7 +429,7 @@ const siswa = [
     "nama": "SITI ROBIATUL ADAWIAH",
     "kelas": "IX B",
     "status": "LULUS",
-    "nilai": 90.18
+    "nilai": "88,76"
   },
   {
     "nisn": "0107659154",
@@ -437,7 +437,7 @@ const siswa = [
     "nama": "SITI SALWA",
     "kelas": "IX B",
     "status": "LULUS",
-    "nilai": 94.91
+    "nilai": "89,17"
   },
   {
     "nisn": "0109032296",
@@ -445,7 +445,7 @@ const siswa = [
     "nama": "SOFI YANTI ABILLA PUTRI",
     "kelas": "IX B",
     "status": "LULUS",
-    "nilai": 86.57
+    "nilai": "89,64"
   },
   {
     "nisn": "0102380186",
@@ -453,7 +453,7 @@ const siswa = [
     "nama": "WARDATUN NISA",
     "kelas": "IX B",
     "status": "LULUS",
-    "nilai": 90.03
+    "nilai": "86,64"
   },
   {
     "nisn": "0117511489",
@@ -461,7 +461,7 @@ const siswa = [
     "nama": "ALYA AGUSTINA RAMADANI",
     "kelas": "IX C",
     "status": "LULUS",
-    "nilai": 80.51
+    "nilai": "89,35"
   },
   {
     "nisn": "0116469683",
@@ -469,7 +469,7 @@ const siswa = [
     "nama": "ANISA RAHMAWATI",
     "kelas": "IX C",
     "status": "LULUS",
-    "nilai": 86.89
+    "nilai": "89,88"
   },
   {
     "nisn": "0116332496",
@@ -477,7 +477,7 @@ const siswa = [
     "nama": "AYU HAMIDAH",
     "kelas": "IX C",
     "status": "LULUS",
-    "nilai": 86.83
+    "nilai": "90,52"
   },
   {
     "nisn": "0108156841",
@@ -485,7 +485,7 @@ const siswa = [
     "nama": "DENA FIRDA AULIA",
     "kelas": "IX C",
     "status": "LULUS",
-    "nilai": 92.5
+    "nilai": "89,17"
   },
   {
     "nisn": "0117416075",
@@ -493,7 +493,7 @@ const siswa = [
     "nama": "GINA SIHA BULMILLAH",
     "kelas": "IX C",
     "status": "LULUS",
-    "nilai": 84.13
+    "nilai": "88,76"
   },
   {
     "nisn": "3117913107",
@@ -501,7 +501,7 @@ const siswa = [
     "nama": "HELLA ARINDA",
     "kelas": "IX C",
     "status": "LULUS",
-    "nilai": 89.31
+    "nilai": "89,58"
   },
   {
     "nisn": "0105643032",
@@ -509,7 +509,7 @@ const siswa = [
     "nama": "HUMAIDAH NUR FADILAH",
     "kelas": "IX C",
     "status": "LULUS",
-    "nilai": 92.98
+    "nilai": "90,70"
   },
   {
     "nisn": "0112059797",
@@ -517,7 +517,7 @@ const siswa = [
     "nama": "INTAN SRI MULYANI",
     "kelas": "IX C",
     "status": "LULUS",
-    "nilai": 86.32
+    "nilai": "88,52"
   },
   {
     "nisn": "0097928901",
@@ -525,7 +525,7 @@ const siswa = [
     "nama": "ISMA YUNI ASYITA",
     "kelas": "IX C",
     "status": "LULUS",
-    "nilai": 85.77
+    "nilai": "89,05"
   },
   {
     "nisn": "0117738535",
@@ -533,7 +533,7 @@ const siswa = [
     "nama": "KAMILAH NUR FAUZIAH",
     "kelas": "IX C",
     "status": "LULUS",
-    "nilai": 82.21
+    "nilai": "88,94"
   },
   {
     "nisn": "0121127655",
@@ -541,7 +541,7 @@ const siswa = [
     "nama": "KHOERUNNISA",
     "kelas": "IX C",
     "status": "LULUS",
-    "nilai": 81.6
+    "nilai": "88,64"
   },
   {
     "nisn": "0104527045",
@@ -549,7 +549,7 @@ const siswa = [
     "nama": "LAILA SAFITRI",
     "kelas": "IX C",
     "status": "LULUS",
-    "nilai": 91.68
+    "nilai": "88,11"
   },
   {
     "nisn": "0115876802",
@@ -557,7 +557,7 @@ const siswa = [
     "nama": "NABILA JULIANTI",
     "kelas": "IX C",
     "status": "LULUS",
-    "nilai": 94.93
+    "nilai": "88,47"
   },
   {
     "nisn": "0115916868",
@@ -565,7 +565,7 @@ const siswa = [
     "nama": "NAYLA ZAKIA",
     "kelas": "IX C",
     "status": "LULUS",
-    "nilai": 93.52
+    "nilai": "89,23"
   },
   {
     "nisn": "0113753426",
@@ -573,7 +573,7 @@ const siswa = [
     "nama": "NURISYIFA AULIA AZHAR",
     "kelas": "IX C",
     "status": "LULUS",
-    "nilai": 94.61
+    "nilai": "89,58"
   },
   {
     "nisn": "0116582084",
@@ -581,7 +581,7 @@ const siswa = [
     "nama": "RAHMA LUTHPIAH",
     "kelas": "IX C",
     "status": "LULUS",
-    "nilai": 87.45
+    "nilai": "89,58"
   },
   {
     "nisn": "3112826744",
@@ -589,7 +589,7 @@ const siswa = [
     "nama": "RENI",
     "kelas": "IX C",
     "status": "LULUS",
-    "nilai": 93.26
+    "nilai": "88,47"
   },
   {
     "nisn": "0101242387",
@@ -597,7 +597,7 @@ const siswa = [
     "nama": "RINA RESTALI",
     "kelas": "IX C",
     "status": "LULUS",
-    "nilai": 88.46
+    "nilai": "89,41"
   },
   {
     "nisn": "0114558413",
@@ -605,7 +605,7 @@ const siswa = [
     "nama": "SALSABILA RAHMATUL AULIA",
     "kelas": "IX C",
     "status": "LULUS",
-    "nilai": 83.7
+    "nilai": "89,35"
   },
   {
     "nisn": "0112260196",
@@ -613,7 +613,7 @@ const siswa = [
     "nama": "SALWA NURUL FADILLAH",
     "kelas": "IX C",
     "status": "LULUS",
-    "nilai": 81.29
+    "nilai": "90,23"
   },
   {
     "nisn": "3113624716",
@@ -621,7 +621,7 @@ const siswa = [
     "nama": "SIFA MELYANA PUTRI",
     "kelas": "IX C",
     "status": "LULUS",
-    "nilai": 91.03
+    "nilai": "88,82"
   },
   {
     "nisn": "0103298424",
@@ -629,7 +629,7 @@ const siswa = [
     "nama": "SITI HABIBAWLOH",
     "kelas": "IX C",
     "status": "LULUS",
-    "nilai": 87.61
+    "nilai": "88,29"
   },
   {
     "nisn": "3126401851",
@@ -637,7 +637,7 @@ const siswa = [
     "nama": "SITI KHOLILAH",
     "kelas": "IX C",
     "status": "LULUS",
-    "nilai": 80.23
+    "nilai": "88,47"
   },
   {
     "nisn": "0109386167",
@@ -645,7 +645,7 @@ const siswa = [
     "nama": "SITI NABILATUL HUSNA",
     "kelas": "IX C",
     "status": "LULUS",
-    "nilai": 94.99
+    "nilai": "88,82"
   },
   {
     "nisn": "0109917723",
@@ -653,7 +653,7 @@ const siswa = [
     "nama": "SITI NUR BADARIAH",
     "kelas": "IX C",
     "status": "LULUS",
-    "nilai": 90.36
+    "nilai": "90,05"
   },
   {
     "nisn": "0091483663",
@@ -661,7 +661,7 @@ const siswa = [
     "nama": "SITI RAHMA WARDATUNNISA",
     "kelas": "IX C",
     "status": "LULUS",
-    "nilai": 82.67
+    "nilai": "89,47"
   },
   {
     "nisn": "3113745755",
@@ -669,7 +669,7 @@ const siswa = [
     "nama": "SITI SYARAH",
     "kelas": "IX C",
     "status": "LULUS",
-    "nilai": 81.95
+    "nilai": "88,52"
   },
   {
     "nisn": "3119568634",
@@ -677,7 +677,7 @@ const siswa = [
     "nama": "SYIFATUL JANNAH",
     "kelas": "IX C",
     "status": "LULUS",
-    "nilai": 81.45
+    "nilai": "89"
   },
   {
     "nisn": "3116280229",
@@ -685,7 +685,7 @@ const siswa = [
     "nama": "VERA RAHMAWATI",
     "kelas": "IX C",
     "status": "LULUS",
-    "nilai": 87.83
+    "nilai": "88,82"
   },
   {
     "nisn": "0108332721",
@@ -693,7 +693,7 @@ const siswa = [
     "nama": "ABDUL KODIR",
     "kelas": "IX D",
     "status": "LULUS",
-    "nilai": 94.38
+    "nilai": "88,82"
   },
   {
     "nisn": "0116405580",
@@ -701,7 +701,7 @@ const siswa = [
     "nama": "AGENG LEKSMANA",
     "kelas": "IX D",
     "status": "LULUS",
-    "nilai": 94.92
+    "nilai": "89,82"
   },
   {
     "nisn": "0114557673",
@@ -709,7 +709,7 @@ const siswa = [
     "nama": "AGUNG PERMANA",
     "kelas": "IX D",
     "status": "LULUS",
-    "nilai": 94.56
+    "nilai": "88,05"
   },
   {
     "nisn": "0119000890",
@@ -717,7 +717,7 @@ const siswa = [
     "nama": "AHMAD TABRIJI HIDAYAT",
     "kelas": "IX D",
     "status": "LULUS",
-    "nilai": 93.83
+    "nilai": "88,47"
   },
   {
     "nisn": "3126318233",
@@ -725,7 +725,7 @@ const siswa = [
     "nama": "AL BIL ARAS",
     "kelas": "IX D",
     "status": "LULUS",
-    "nilai": 89.16
+    "nilai": "88,76"
   },
   {
     "nisn": "0112855481",
@@ -733,7 +733,7 @@ const siswa = [
     "nama": "ASEP MAULANA",
     "kelas": "IX D",
     "status": "LULUS",
-    "nilai": 94.31
+    "nilai": "87,52"
   },
   {
     "nisn": "0111274729",
@@ -741,7 +741,7 @@ const siswa = [
     "nama": "AZHAR ANSHORI",
     "kelas": "IX D",
     "status": "LULUS",
-    "nilai": 87.77
+    "nilai": "91"
   },
   {
     "nisn": "0119891679",
@@ -749,7 +749,7 @@ const siswa = [
     "nama": "AZRIEL FIRMANSYAH",
     "kelas": "IX D",
     "status": "LULUS",
-    "nilai": 83.09
+    "nilai": "89,11"
   },
   {
     "nisn": "0117622817",
@@ -757,7 +757,7 @@ const siswa = [
     "nama": "BISMA KOSWARA",
     "kelas": "IX D",
     "status": "LULUS",
-    "nilai": 85.14
+    "nilai": "89"
   },
   {
     "nisn": "0109251692",
@@ -765,7 +765,7 @@ const siswa = [
     "nama": "FAZRI HERLAMBANG",
     "kelas": "IX D",
     "status": "LULUS",
-    "nilai": 91.53
+    "nilai": "90,23"
   },
   {
     "nisn": "0115782017",
@@ -773,7 +773,7 @@ const siswa = [
     "nama": "FEBIANA REFALDI",
     "kelas": "IX D",
     "status": "LULUS",
-    "nilai": 89.19
+    "nilai": "88,64"
   },
   {
     "nisn": "0111488873",
@@ -781,7 +781,7 @@ const siswa = [
     "nama": "GALIH SEPTIAN",
     "kelas": "IX D",
     "status": "LULUS",
-    "nilai": 89.44
+    "nilai": "87,76"
   },
   {
     "nisn": "3111786314",
@@ -789,7 +789,7 @@ const siswa = [
     "nama": "HABIB MAULANA",
     "kelas": "IX D",
     "status": "LULUS",
-    "nilai": 86.34
+    "nilai": "88,82"
   },
   {
     "nisn": "0117692825",
@@ -797,7 +797,7 @@ const siswa = [
     "nama": "HANDIKA",
     "kelas": "IX D",
     "status": "LULUS",
-    "nilai": 93.85
+    "nilai": "87,64"
   },
   {
     "nisn": "0115052408",
@@ -805,7 +805,7 @@ const siswa = [
     "nama": "M. MUKLIS",
     "kelas": "IX D",
     "status": "LULUS",
-    "nilai": 80.68
+    "nilai": "87,82"
   },
   {
     "nisn": "3104348271",
@@ -813,7 +813,7 @@ const siswa = [
     "nama": "MUHAMAD ABIL KUSAERI",
     "kelas": "IX D",
     "status": "LULUS",
-    "nilai": 90.81
+    "nilai": "88,47"
   },
   {
     "nisn": "0111456570",
@@ -821,7 +821,7 @@ const siswa = [
     "nama": "MUHAMAD CANDRA KURNIAWAN",
     "kelas": "IX D",
     "status": "LULUS",
-    "nilai": 84.08
+    "nilai": "88"
   },
   {
     "nisn": "0117836348",
@@ -829,7 +829,7 @@ const siswa = [
     "nama": "MUHAMAD HOERIJA",
     "kelas": "IX D",
     "status": "LULUS",
-    "nilai": 80.41
+    "nilai": "88"
   },
   {
     "nisn": "0103114990",
@@ -837,7 +837,7 @@ const siswa = [
     "nama": "MUHAMAD ILHAM MAULANA",
     "kelas": "IX D",
     "status": "LULUS",
-    "nilai": 84.32
+    "nilai": "88,35"
   },
   {
     "nisn": "0114532169",
@@ -845,7 +845,7 @@ const siswa = [
     "nama": "MUHAMAD NAWAF NUGRAHA",
     "kelas": "IX D",
     "status": "LULUS",
-    "nilai": 85.35
+    "nilai": "90,17"
   },
   {
     "nisn": "0112887736",
@@ -853,7 +853,7 @@ const siswa = [
     "nama": "MUHAMMAD FAIZAL",
     "kelas": "IX D",
     "status": "LULUS",
-    "nilai": 94.56
+    "nilai": "88,41"
   },
   {
     "nisn": "0116854963",
@@ -861,7 +861,7 @@ const siswa = [
     "nama": "PADLI SYAHRULLOH",
     "kelas": "IX D",
     "status": "LULUS",
-    "nilai": 94.48
+    "nilai": "88,64"
   },
   {
     "nisn": "0109275968",
@@ -869,7 +869,7 @@ const siswa = [
     "nama": "RAHMAT",
     "kelas": "IX D",
     "status": "LULUS",
-    "nilai": 91.59
+    "nilai": "88,58"
   },
   {
     "nisn": "0118553406",
@@ -877,7 +877,7 @@ const siswa = [
     "nama": "RIKI AJUR TSANI",
     "kelas": "IX D",
     "status": "LULUS",
-    "nilai": 89.24
+    "nilai": "90,35"
   },
   {
     "nisn": "0103921047",
@@ -885,7 +885,7 @@ const siswa = [
     "nama": "RIZAL KAKA",
     "kelas": "IX D",
     "status": "LULUS",
-    "nilai": 93.97
+    "nilai": "88,70"
   },
   {
     "nisn": "0111875478",
@@ -893,7 +893,7 @@ const siswa = [
     "nama": "RIZKI PADILLAH",
     "kelas": "IX D",
     "status": "LULUS",
-    "nilai": 89.37
+    "nilai": "88,88"
   },
   {
     "nisn": "0113693072",
@@ -901,7 +901,7 @@ const siswa = [
     "nama": "RIZKY FAHRUROJI",
     "kelas": "IX D",
     "status": "LULUS",
-    "nilai": 91.84
+    "nilai": "88,88"
   },
   {
     "nisn": "0112193267",
@@ -909,7 +909,7 @@ const siswa = [
     "nama": "YUGIANSYAH",
     "kelas": "IX D",
     "status": "LULUS",
-    "nilai": 84.85
+    "nilai": "90,41"
   },
   {
     "nisn": "0116033003",
@@ -917,7 +917,7 @@ const siswa = [
     "nama": "YUSRON SAHRIL",
     "kelas": "IX D",
     "status": "LULUS",
-    "nilai": 82.58
+    "nilai": "88,64"
   },
   {
     "nisn": "0118821712",
@@ -925,7 +925,7 @@ const siswa = [
     "nama": "A. GILANG GEMILANG",
     "kelas": "IX E",
     "status": "LULUS",
-    "nilai": 80.57
+    "nilai": "90,05"
   },
   {
     "nisn": "0111222555",
@@ -933,7 +933,7 @@ const siswa = [
     "nama": "AANG NAJMUDIN",
     "kelas": "IX E",
     "status": "LULUS",
-    "nilai": 88.54
+    "nilai": "88"
   },
   {
     "nisn": "0109915873",
@@ -941,7 +941,7 @@ const siswa = [
     "nama": "ABBIE REYHAN",
     "kelas": "IX E",
     "status": "LULUS",
-    "nilai": 86.79
+    "nilai": "87,88"
   },
   {
     "nisn": "0112589799",
@@ -949,7 +949,7 @@ const siswa = [
     "nama": "ABDUL KODIR",
     "kelas": "IX E",
     "status": "LULUS",
-    "nilai": 84.62
+    "nilai": "88,94"
   },
   {
     "nisn": "0106582582",
@@ -957,7 +957,7 @@ const siswa = [
     "nama": "AHMAD ALES SANJAYA",
     "kelas": "IX E",
     "status": "LULUS",
-    "nilai": 85
+    "nilai": "88,41"
   },
   {
     "nisn": "0108259627",
@@ -965,7 +965,7 @@ const siswa = [
     "nama": "AHMAD SAHRUDIN",
     "kelas": "IX E",
     "status": "LULUS",
-    "nilai": 84.83
+    "nilai": "88,23"
   },
   {
     "nisn": "0116776809",
@@ -973,7 +973,7 @@ const siswa = [
     "nama": "ARDAN RAMADAN",
     "kelas": "IX E",
     "status": "LULUS",
-    "nilai": 85.94
+    "nilai": "88,70"
   },
   {
     "nisn": "3120895014",
@@ -981,7 +981,7 @@ const siswa = [
     "nama": "AZDAN AL FAREESY GUNAWAN",
     "kelas": "IX E",
     "status": "LULUS",
-    "nilai": 82.88
+    "nilai": "88,52"
   },
   {
     "nisn": "3113508303",
@@ -989,7 +989,7 @@ const siswa = [
     "nama": "FAIZ FATHUROHMAN",
     "kelas": "IX E",
     "status": "LULUS",
-    "nilai": 87.25
+    "nilai": "88,94"
   },
   {
     "nisn": "0102405713",
@@ -997,7 +997,7 @@ const siswa = [
     "nama": "FIKRI FIRMANSYAH",
     "kelas": "IX E",
     "status": "LULUS",
-    "nilai": 93.04
+    "nilai": "89"
   },
   {
     "nisn": "0103012917",
@@ -1005,7 +1005,7 @@ const siswa = [
     "nama": "HIDAYATUL ROJAK",
     "kelas": "IX E",
     "status": "LULUS",
-    "nilai": 85.73
+    "nilai": "88,35"
   },
   {
     "nisn": "0093415410",
@@ -1013,7 +1013,7 @@ const siswa = [
     "nama": "JAMALUDIN",
     "kelas": "IX E",
     "status": "LULUS",
-    "nilai": 93.2
+    "nilai": "87,94"
   },
   {
     "nisn": "0105321237",
@@ -1021,7 +1021,7 @@ const siswa = [
     "nama": "KUMAR HERMAWAN",
     "kelas": "IX E",
     "status": "LULUS",
-    "nilai": 91.5
+    "nilai": "89,11"
   },
   {
     "nisn": "0117923690",
@@ -1029,7 +1029,7 @@ const siswa = [
     "nama": "MAULANA KHAILIL AZWAR",
     "kelas": "IX E",
     "status": "LULUS",
-    "nilai": 86.49
+    "nilai": "89,58"
   },
   {
     "nisn": "0109518737",
@@ -1037,7 +1037,7 @@ const siswa = [
     "nama": "MIFTAHUL FAUZI",
     "kelas": "IX E",
     "status": "LULUS",
-    "nilai": 87.61
+    "nilai": "90,76"
   },
   {
     "nisn": "0112782177",
@@ -1045,7 +1045,7 @@ const siswa = [
     "nama": "MUGNIL WALID",
     "kelas": "IX E",
     "status": "LULUS",
-    "nilai": 80.27
+    "nilai": "90,94"
   },
   {
     "nisn": "3120493841",
@@ -1053,7 +1053,7 @@ const siswa = [
     "nama": "MUHAMAD FAIZ FATWA",
     "kelas": "IX E",
     "status": "LULUS",
-    "nilai": 91.43
+    "nilai": "88,11"
   },
   {
     "nisn": "0117889191",
@@ -1061,7 +1061,7 @@ const siswa = [
     "nama": "MUHAMAD MALIK RAMDANI",
     "kelas": "IX E",
     "status": "LULUS",
-    "nilai": 89.61
+    "nilai": "87,58"
   },
   {
     "nisn": "0116445269",
@@ -1069,7 +1069,7 @@ const siswa = [
     "nama": "MUHAMAD RAMADANI",
     "kelas": "IX E",
     "status": "LULUS",
-    "nilai": 93.3
+    "nilai": "88,23"
   },
   {
     "nisn": "0118966879",
@@ -1077,7 +1077,7 @@ const siswa = [
     "nama": "MUHAMAD RIFAI",
     "kelas": "IX E",
     "status": "LULUS",
-    "nilai": 89.59
+    "nilai": "87,94"
   },
   {
     "nisn": "3105922391",
@@ -1085,7 +1085,7 @@ const siswa = [
     "nama": "MUHAMAD SEPTIAN",
     "kelas": "IX E",
     "status": "LULUS",
-    "nilai": 84.64
+    "nilai": "88,47"
   },
   {
     "nisn": "0119567779",
@@ -1093,7 +1093,7 @@ const siswa = [
     "nama": "MUHAMAD SUHERLI",
     "kelas": "IX E",
     "status": "LULUS",
-    "nilai": 86.98
+    "nilai": "88,29"
   },
   {
     "nisn": "0108076316",
@@ -1101,7 +1101,7 @@ const siswa = [
     "nama": "MUHAMAD YUSUP",
     "kelas": "IX E",
     "status": "LULUS",
-    "nilai": 92.59
+    "nilai": "89,23"
   },
   {
     "nisn": "0113714867",
@@ -1109,7 +1109,7 @@ const siswa = [
     "nama": "MUHAMMAD FATURROHMAN",
     "kelas": "IX E",
     "status": "LULUS",
-    "nilai": 94.37
+    "nilai": "87,88"
   },
   {
     "nisn": "3100142858",
@@ -1117,7 +1117,7 @@ const siswa = [
     "nama": "MUHAMMAD NAJIB MAHBUBI",
     "kelas": "IX E",
     "status": "LULUS",
-    "nilai": 93.38
+    "nilai": "90,70"
   },
   {
     "nisn": "0118762405",
@@ -1125,7 +1125,7 @@ const siswa = [
     "nama": "MUHAMMAD UBAIDILLAH",
     "kelas": "IX E",
     "status": "LULUS",
-    "nilai": 85.29
+    "nilai": "88,29"
   },
   {
     "nisn": "0124905592",
@@ -1133,7 +1133,7 @@ const siswa = [
     "nama": "NUNU NUGRAHA",
     "kelas": "IX E",
     "status": "LULUS",
-    "nilai": 89.59
+    "nilai": "87,94"
   },
   {
     "nisn": "0113519016",
@@ -1141,7 +1141,7 @@ const siswa = [
     "nama": "RAIFAN MARUF",
     "kelas": "IX E",
     "status": "LULUS",
-    "nilai": 80.36
+    "nilai": "87,88"
   },
   {
     "nisn": "0104274572",
@@ -1149,7 +1149,7 @@ const siswa = [
     "nama": "REJA UMAMI",
     "kelas": "IX E",
     "status": "LULUS",
-    "nilai": 80.96
+    "nilai": "91"
   },
   {
     "nisn": "3117270942",
@@ -1157,7 +1157,7 @@ const siswa = [
     "nama": "RIFKY SAPUTRA",
     "kelas": "IX E",
     "status": "LULUS",
-    "nilai": 93.26
+    "nilai": "87,64"
   },
   {
     "nisn": "0101885009",
@@ -1165,7 +1165,7 @@ const siswa = [
     "nama": "SULTAN ABDUL AZIZ",
     "kelas": "IX E",
     "status": "LULUS",
-    "nilai": 85.8
+    "nilai": "88,35"
   },
   {
     "nisn": "0118035505",
@@ -1173,7 +1173,7 @@ const siswa = [
     "nama": "WALIYUL FAJRI",
     "kelas": "IX E",
     "status": "LULUS",
-    "nilai": 87.51
+    "nilai": "90,11"
   },
   {
     "nisn": "0114092374",
@@ -1181,7 +1181,7 @@ const siswa = [
     "nama": "ZULFA FIRKI",
     "kelas": "IX E",
     "status": "LULUS",
-    "nilai": 90.43
+    "nilai": "88,58"
   },
   {
     "nisn": "0106348144",
@@ -1189,6 +1189,6 @@ const siswa = [
     "nama": "ZULFAN ZAENUR RIZKI",
     "kelas": "IX E",
     "status": "LULUS",
-    "nilai": 91.57
+    "nilai": "88,47"
   }
 ]
