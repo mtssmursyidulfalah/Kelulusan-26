@@ -345,29 +345,59 @@ DOWNLOAD KARTU JPG
 
 function downloadKartu(){
 
-  html2canvas(
-    document.querySelector("#kartuKelulusan"),
-    {
-      scale:1,
-      useCORS:true
-    }
-  ).then(canvas => {
+  const kartu =
+  document.getElementById(
+    "kartuKelulusan"
+  );
 
-    canvas.toBlob(function(blob){
+  const gambar =
+  kartu.querySelector("img");
+
+  if(gambar){
+
+    gambar.crossOrigin = "anonymous";
+
+  }
+
+  setTimeout(() => {
+
+    html2canvas(kartu,{
+
+      scale:2,
+
+      useCORS:true,
+
+      allowTaint:true,
+
+      backgroundColor:null
+
+    }).then(canvas => {
+
+      const image =
+      canvas.toDataURL(
+        "image/png"
+      );
 
       const link =
       document.createElement("a");
 
-      link.href =
-      URL.createObjectURL(blob);
+      link.href = image;
 
       link.download =
       "bukti-kelulusan.png";
 
+      document.body.appendChild(
+        link
+      );
+
       link.click();
 
-    },"image/png");
+      document.body.removeChild(
+        link
+      );
 
-  });
+    });
+
+  },500);
 
 }
