@@ -806,11 +806,15 @@ button:hover{
 }
 .kartu-download{
 
+  width:100%;
+
+  max-width:950px;
+
   background:white;
 
-  border-radius:28px;
+  border-radius:30px;
 
-  padding:28px;
+  padding:30px;
 
   color:#0f172a;
 
@@ -825,23 +829,28 @@ button:hover{
 
   align-items:center;
 
-  gap:18px;
+  gap:20px;
 
-  padding-bottom:14px;
+  padding-bottom:18px;
 
   border-bottom:2px solid #dbeafe;
 }
 
 .logo-kartu{
 
-  width:80px;
+  width:90px;
+}
+
+.judul-kartu{
+
+  flex:1;
 }
 
 .judul-kartu h1{
 
-  font-size:42px;
+  font-size:54px;
 
-  line-height:1;
+  line-height:0.95;
 
   color:#1e3a8a;
 
@@ -850,9 +859,9 @@ button:hover{
 
 .judul-kartu p{
 
-  margin-top:6px;
+  margin-top:10px;
 
-  font-size:20px;
+  font-size:28px;
 
   font-weight:700;
 
@@ -861,7 +870,7 @@ button:hover{
 
 .judul-kartu span{
 
-  font-size:14px;
+  font-size:18px;
 
   color:#64748b;
 }
@@ -870,27 +879,31 @@ button:hover{
 
   display:flex;
 
-  gap:24px;
+  gap:35px;
 
-  margin-top:22px;
+  margin-top:28px;
+
+  align-items:flex-start;
 }
 
 .foto-area{
 
-  width:170px;
+  width:240px;
+
+  flex-shrink:0;
 }
 
 .foto-area .foto-siswa{
 
   width:100%;
 
-  height:220px;
+  height:320px;
 
   object-fit:cover;
 
-  border-radius:20px;
+  border-radius:22px;
 
-  border:3px solid #2563eb;
+  border:4px solid #2563eb;
 
   margin:0;
 }
@@ -908,23 +921,23 @@ button:hover{
 
   align-items:center;
 
-  padding:10px 0;
+  padding:16px 0;
 
-  border-bottom:1px solid #dbeafe;
+  border-bottom:2px solid #dbeafe;
 
-  gap:10px;
+  gap:20px;
 }
 
 .baris span{
 
-  font-size:16px;
+  font-size:28px;
 
   color:#475569;
 }
 
 .baris b{
 
-  font-size:18px;
+  font-size:34px;
 
   text-align:right;
 
@@ -935,41 +948,120 @@ button:hover{
 
   width:100%;
 
-  margin-top:22px;
+  margin-top:28px;
 
-  padding:14px;
+  padding:18px;
 
-  border-radius:18px;
+  border-radius:20px;
 
   text-align:center;
 
-  font-size:34px;
+  font-size:52px;
 
   font-weight:700;
 }
 
 .kartu-download .pesan{
 
-  margin-top:22px;
+  margin-top:28px;
 
-  font-size:14px;
+  font-size:22px;
 
   line-height:1.7;
 
   color:#334155;
 
   font-style:normal;
+
+  text-align:center;
 }
 
 .kartu-download .kepala-sekolah{
 
-  margin-top:18px;
+  margin-top:24px;
 
-  font-size:16px;
+  font-size:24px;
 
   font-weight:700;
 
   color:#1e3a8a;
+
+  text-align:center;
+}
+
+@media(max-width:900px){
+
+  .kartu-download{
+
+    max-width:100%;
+
+    padding:22px;
+  }
+
+  .header-kartu{
+
+    flex-direction:column;
+
+    text-align:center;
+  }
+
+  .judul-kartu h1{
+
+    font-size:34px;
+  }
+
+  .judul-kartu p{
+
+    font-size:20px;
+  }
+
+  .isi-kartu{
+
+    flex-direction:column;
+
+    align-items:center;
+  }
+
+  .foto-area{
+
+    width:180px;
+  }
+
+  .foto-area .foto-siswa{
+
+    height:240px;
+  }
+
+  .baris{
+
+    padding:12px 0;
+  }
+
+  .baris span{
+
+    font-size:18px;
+  }
+
+  .baris b{
+
+    font-size:22px;
+  }
+
+  .kartu-download .status{
+
+    font-size:34px;
+  }
+
+  .kartu-download .pesan{
+
+    font-size:16px;
+  }
+
+  .kartu-download .kepala-sekolah{
+
+    font-size:18px;
+  }
+
 }
 
 @media(max-width:600px){
