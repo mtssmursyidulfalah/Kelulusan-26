@@ -330,8 +330,8 @@ style="display:none;">
 </div>
 
 <button
-class="download-btn"
-onclick="downloadKartu()">
+id="downloadBtn"
+class="download-btn">
 
 DOWNLOAD KARTU JPG
 
@@ -340,8 +340,20 @@ DOWNLOAD KARTU JPG
 </div>
 
 `;
-  
+  setTimeout(() => {
+
+  document
+  .getElementById(
+    "downloadBtn"
+  )
+  .addEventListener(
+    "click",
+    downloadKartu
+  );
+
+},300);
 }
+
 
 function downloadKartu(){
 
