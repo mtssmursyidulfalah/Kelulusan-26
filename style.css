@@ -5,12 +5,20 @@
 }
 
 body{
-  min-height:100vh;
+ min-height:100vh;
+
   display:flex;
+
   justify-content:center;
+
   align-items:center;
+
   padding:20px;
-  overflow:hidden;
+
+  overflow-y:auto;
+
+  overflow-x:hidden;
+
   font-family:'Poppins',sans-serif;
 
   background:
@@ -459,7 +467,7 @@ button:hover{
   width:100%;
   max-width:430px;
 
-  padding:30px;
+  padding:28px;
 
   border-radius:35px;
 
@@ -479,15 +487,19 @@ button:hover{
 
   position:relative;
   z-index:2;
+
+  margin:auto;
 }
 
 .nama-siswa{
 
-  font-size:42px;
+  font-size:34px;
 
   font-weight:700;
 
   line-height:1.2;
+
+  word-break:break-word;
 }
 
 .kelas-siswa{
@@ -524,11 +536,13 @@ button:hover{
 
 .nomor-nisn{
 
-  font-size:42px;
+   font-size:30px;
 
   font-weight:700;
 
   margin-top:10px;
+
+  word-break:break-word;
 }
 
 .keterangan{
@@ -542,15 +556,17 @@ button:hover{
 
 .status{
 
+ .status{
+
   display:inline-block;
 
-  padding:14px 45px;
+  padding:12px 35px;
 
   border-radius:999px;
 
   margin-top:20px;
 
-  font-size:34px;
+  font-size:28px;
 
   font-weight:700;
 }
@@ -590,7 +606,9 @@ button:hover{
 
 .nilai-angka{
 
-  font-size:55px;
+.nilai-angka{
+
+  font-size:46px;
 
   font-weight:700;
 }
@@ -641,4 +659,59 @@ button:hover{
   font-size:14px;
 
   opacity:0.9;
+}
+  @media(max-width:600px){
+
+  .hasil-container{
+
+    max-width:100%;
+
+    padding:24px;
+
+    margin:30px 0;
+  }
+
+  .foto-siswa{
+
+    width:110px;
+    height:110px;
+  }
+
+  .nama-siswa{
+
+    font-size:28px;
+  }
+
+  .kelas-siswa{
+
+    font-size:22px;
+  }
+
+  .nomor-nisn{
+
+    font-size:24px;
+  }
+
+  .status{
+
+    font-size:22px;
+
+    padding:10px 28px;
+  }
+
+  .nilai-angka{
+
+    font-size:40px;
+  }
+
+  .pesan{
+
+    font-size:15px;
+  }
+
+  .kepala-sekolah{
+
+    font-size:18px;
+  }
+
 }
