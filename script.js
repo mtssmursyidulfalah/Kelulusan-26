@@ -356,28 +356,26 @@ function downloadKartu(){
 
     useCORS:true,
 
-    allowTaint:true
+    backgroundColor:"#ffffff"
 
   }).then(canvas => {
 
-    canvas.toBlob(function(blob){
+    const link =
+    document.createElement("a");
 
-      const link =
-      document.createElement("a");
+    link.href =
+    canvas.toDataURL(
+      "image/png"
+    );
 
-      link.href =
-      URL.createObjectURL(blob);
+    link.download =
+    "bukti-kelulusan.png";
 
-      link.download =
-      "bukti-kelulusan.jpg";
+    document.body.appendChild(link);
 
-      link.click();
+    link.click();
 
-      URL.revokeObjectURL(
-        link.href
-      );
-
-    },"image/jpeg",0.95);
+    document.body.removeChild(link);
 
   });
 
