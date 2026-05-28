@@ -143,6 +143,74 @@ document.body.innerHTML = `
 class="hasil-container">
 
 <div
+class="hasil-container">
+
+<div class="hasil-asli">
+
+  <img
+  src="assets/${data.nisn}.jpg"
+
+  onerror="
+  this.onerror=null;
+  this.src='assets/default.jpg';
+  "
+
+  class="foto-siswa"
+  >
+
+  <div class="nama-siswa">
+    ${data.nama}
+  </div>
+
+  <div class="kelas-siswa">
+    ${data.kelas}
+  </div>
+
+  <div class="card-info">
+
+    <div class="nisn-title">
+      NISN
+    </div>
+
+    <div class="nomor-nisn">
+      ${data.nisn}
+    </div>
+
+    <div class="keterangan">
+
+      Berdasarkan hasil rapat kepala
+      madrasah, siswa tersebut
+      dinyatakan :
+
+    </div>
+
+    <div
+    class="
+    status
+    ${data.status === 'LULUS'
+    ?
+    'lulus'
+    :
+    'tidak-lulus'}
+    ">
+
+      ${data.status}
+
+    </div>
+
+    <div class="nilai-text">
+      Dengan Nilai Rata-rata :
+    </div>
+
+    <div class="nilai-angka">
+      ${data.nilai}
+    </div>
+
+  </div>
+
+</div>
+
+<div
 id="kartuKelulusan"
 class="kartu-download">
 
