@@ -271,6 +271,9 @@ DOWNLOAD KARTU JPG
 </div>
 
 `;
+  
+}
+
 function downloadKartu(){
 
   const kartu =
