@@ -412,14 +412,17 @@ function downloadKartu(){
   },500);
 
 }
+
 #kartuKelulusan{
 
-  position:absolute;
+  position:fixed;
+
+  top:-9999px;
 
   left:-9999px;
 
-  top:0;
-
   width:950px;
+
+  z-index:-1;
 
 }
