@@ -3,7 +3,7 @@ const targetDate = new Date(
 );
 
 let angka1 = 0;
-let angka2 = 0;
+let angka = 0;
 
 function generateCaptcha(){
 
