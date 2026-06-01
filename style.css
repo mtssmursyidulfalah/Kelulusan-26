@@ -1071,18 +1071,6 @@ button:hover{
   z-index:2;
 
 }
-#kartuKelulusan{
-  position:fixed;
-  left:0;
-  top:0;
-
-  width:950px;
-
-  opacity:0;
-  pointer-events:none;
-
-  background:white;
-}
 *{
   margin:0;
   padding:0;
@@ -2156,63 +2144,17 @@ button:hover{
   z-index:2;
 
 }
+
 #kartuKelulusan{
-
-  position:absolute;
-
-  left:-9999px;
-
+  position:fixed;
   top:0;
+  left:0;
 
   width:950px;
 
+  visibility:hidden;
+  z-index:-9999;
+
   background:white;
-
-}
-.download-mode{
-  width:950px !important;
-  max-width:950px !important;
-}
-
-.download-mode .header-kartu{
-  flex-direction:row !important;
-  text-align:left !important;
-}
-
-.download-mode .isi-kartu{
-  flex-direction:row !important;
-  align-items:flex-start !important;
-}
-
-.download-mode .foto-area{
-  width:240px !important;
-}
-
-.download-mode .foto-area .foto-siswa{
-  width:100% !important;
-  height:320px !important;
-}
-
-.download-mode .baris{
-  flex-direction:row !important;
-  justify-content:space-between !important;
-  align-items:center !important;
-}
-
-.download-mode .baris b{
-  text-align:right !important;
-  font-size:34px !important;
-}
-
-.download-mode .judul-kartu h1{
-  font-size:54px !important;
-}
-
-.download-mode .judul-kartu p{
-  font-size:28px !important;
-}
-
-.download-mode .status{
-  font-size:52px !important;
 }
 
