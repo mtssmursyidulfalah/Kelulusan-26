@@ -2147,14 +2147,15 @@ button:hover{
 
 #kartuKelulusan{
   position:fixed;
-  top:0;
   left:0;
+  top:0;
 
   width:950px;
 
-  visibility:hidden;
+  background:white;
+
   z-index:-9999;
 
-  background:white;
+  opacity:0;
 }
 
