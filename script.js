@@ -217,6 +217,8 @@ DOWNLOAD KARTU JPG
 
 </button>
 
+</div>
+
 <div
 id="kartuKelulusan"
 class="kartu-download"
