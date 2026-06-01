@@ -1071,19 +1071,17 @@ button:hover{
   z-index:2;
 
 }
-
 #kartuKelulusan{
-  position:fixed;
+
+  position:absolute;
+
   left:-9999px;
+
   top:0;
 
   width:950px;
 
   background:white;
+
 }
-.download-btn{
-  display:block;
-  width:100%;
-  max-width:420px;
-  margin:20px auto;
-}
+
