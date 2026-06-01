@@ -267,11 +267,18 @@ button:hover{
 
   box-shadow:
   0 0 20px rgba(34,197,94,0.7);
-}
 #downloadArea{
-  position:absolute;
-  left:-9999px;
+
+  position:fixed;
+
   top:0;
+
+  left:0;
+
+  visibility:hidden;
+
+  z-index:-9999;
+
 }
 
 .download-card{
@@ -1055,41 +1062,6 @@ button:hover{
 
 }
 
-#kartuKelulusan{
-
-  width:100%;
-
-  max-width:950px;
-
-}
-
-#kartuKelulusan{
-
-  transform:none !important;
-
-  filter:none !important;
-
-  backdrop-filter:none !important;
-
-}
-
-#kartuKelulusan{
-
-  position:fixed;
-
-  top:0;
-
-  left:0;
-
-  width:950px;
-
-  opacity:0;
-
-  pointer-events:none;
-
-  z-index:-999;
-
-}
 .hasil-asli{
 
   position:relative;
