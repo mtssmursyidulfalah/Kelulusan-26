@@ -1081,6 +1081,8 @@ button:hover{
 
   width:950px;
 
+   min-width:950px;
+
   background:white;
 
 }
