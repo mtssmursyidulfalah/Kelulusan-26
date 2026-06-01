@@ -210,7 +210,7 @@ class="hasil-container">
 <div
 id="kartuKelulusan"
 class="kartu-download"
-style="display:block;"
+style="display:none;"
 
   <div class="header-kartu">
 
