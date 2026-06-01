@@ -207,18 +207,6 @@ class="hasil-container">
 
 </div>
 
-</div>
-
-<button
-id="downloadBtn"
-class="download-btn">
-
-DOWNLOAD KARTU JPG
-
-</button>
-
-</div>
-
 <div
 id="kartuKelulusan"
 class="kartu-download"
@@ -336,8 +324,18 @@ style="display:none;">
 
   </div>
 
-  </div>
-  
+</div>
+
+<button
+id="downloadBtn"
+class="download-btn">
+
+DOWNLOAD KARTU JPG
+
+</button>
+
+</div>
+
 `;
 setTimeout(() => {
 
@@ -367,12 +365,32 @@ function downloadKartu(){
   );
 
   kartu.style.display = "block";
-  kartu.style.opacity = "1";
-  kartu.style.zIndex = "9999";
 
-  console.log(
-    kartu.offsetWidth,
-    kartu.offsetHeight
-  );
+  setTimeout(()=>{
+
+    html2canvas(kartu,{
+      scale:3,
+      useCORS:true,
+      backgroundColor:"#ffffff"
+    }).then(canvas=>{
+
+      kartu.style.display="none";
+
+      const link =
+      document.createElement("a");
+
+      link.download =
+      "Bukti-Kelulusan.png";
+
+      link.href =
+      canvas.toDataURL(
+        "image/png"
+      );
+
+      link.click();
+
+    });
+
+  },300);
 
 }
