@@ -207,6 +207,16 @@ class="hasil-container">
 
 </div>
 
+</div>
+
+<button
+id="downloadBtn"
+class="download-btn">
+
+DOWNLOAD KARTU JPG
+
+</button>
+
 <div
 id="kartuKelulusan"
 class="kartu-download"
@@ -324,18 +334,8 @@ style="display:none;">
 
   </div>
 
-</div>
-
-<button
-id="downloadBtn"
-class="download-btn">
-
-DOWNLOAD KARTU JPG
-
-</button>
-
-</div>
-
+  </div>
+  
 `;
 setTimeout(() => {
 
