@@ -1071,4 +1071,17 @@ button:hover{
   z-index:2;
 
 }
+#kartuKelulusan{
+
+  position:absolute;
+
+  left:-9999px;
+
+  top:0;
+
+  width:950px;
+
+  background:white;
+
+}
 
