@@ -1072,17 +1072,16 @@ button:hover{
 
 }
 #kartuKelulusan{
-
-  position:absolute;
-
-  left:-9999px;
-
+  position:fixed;
+  left:0;
   top:0;
 
   width:950px;
 
-  background:white;
+  opacity:0;
+  pointer-events:none;
 
+  background:white;
 }
 *{
   margin:0;
