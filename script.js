@@ -366,25 +366,15 @@ function downloadKartu(){
 
   kartu.style.display = "block";
 
-  kartu.classList.add(
-    "download-mode"
-  );
-
   setTimeout(()=>{
 
     html2canvas(kartu,{
       scale:3,
       useCORS:true,
-      backgroundColor:"#ffffff",
-      width:950,
-      windowWidth:950
+      backgroundColor:"#ffffff"
     }).then(canvas=>{
 
       kartu.style.display="none";
-
-      kartu.classList.remove(
-        "download-mode"
-      );
 
       const link =
       document.createElement("a");
