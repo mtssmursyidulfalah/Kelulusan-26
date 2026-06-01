@@ -364,7 +364,8 @@ function downloadKartu(){
     "kartuKelulusan"
   );
 
-  kartu.style.display = "block";
+  kartu.style.visibility =
+  "visible";
 
   setTimeout(()=>{
 
@@ -374,7 +375,8 @@ function downloadKartu(){
       backgroundColor:"#ffffff"
     }).then(canvas=>{
 
-      kartu.style.display="none";
+      kartu.style.visibility =
+      "hidden";
 
       const link =
       document.createElement("a");
@@ -383,14 +385,12 @@ function downloadKartu(){
       "Bukti-Kelulusan.png";
 
       link.href =
-      canvas.toDataURL(
-        "image/png"
-      );
+      canvas.toDataURL("image/png");
 
       link.click();
 
     });
 
-  },300);
+  },500);
 
 }
