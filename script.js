@@ -337,7 +337,7 @@ DOWNLOAD KARTU JPG
 </div>
 
 `;
-  setTimeout(() => {
+setTimeout(() => {
 
   document
   .getElementById(
@@ -349,7 +349,12 @@ DOWNLOAD KARTU JPG
   );
 
 },300);
-}
+
+confetti({
+  particleCount:150,
+  spread:100,
+  origin:{ y:0.6 }
+});
 
 
 function downloadKartu(){
