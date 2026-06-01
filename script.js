@@ -368,28 +368,30 @@ function downloadKartu(){
 
   setTimeout(()=>{
 
-    html2canvas(kartu,{
-      scale:3,
-      useCORS:true,
-      backgroundColor:"#ffffff"
-    }).then(canvas=>{
+html2canvas(kartu,{
+  scale:3,
+  useCORS:true,
+  backgroundColor:"#ffffff",
 
-      kartu.style.display="none";
+  width:950,
+  windowWidth:950
 
-      const link =
-      document.createElement("a");
+}).then(canvas=>{
 
-      link.download =
-      "Bukti-Kelulusan.png";
+  kartu.style.display="none";
 
-      link.href =
-      canvas.toDataURL(
-        "image/png"
-      );
+  const link =
+  document.createElement("a");
 
-      link.click();
+  link.download =
+  "Bukti-Kelulusan.png";
 
-    });
+  link.href =
+  canvas.toDataURL("image/png");
+
+  link.click();
+
+});
 
   },300);
 
