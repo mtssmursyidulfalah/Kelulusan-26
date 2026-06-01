@@ -364,8 +364,11 @@ function downloadKartu(){
     "kartuKelulusan"
   );
 
-  kartu.style.visibility =
-  "visible";
+  kartu.style.display = "block";
+
+  kartu.style.opacity = "1";
+
+  kartu.style.zIndex = "9999";
 
   setTimeout(()=>{
 
@@ -375,8 +378,9 @@ function downloadKartu(){
       backgroundColor:"#ffffff"
     }).then(canvas=>{
 
-      kartu.style.visibility =
-      "hidden";
+      kartu.style.opacity = "0";
+
+      kartu.style.zIndex = "-9999";
 
       const link =
       document.createElement("a");
@@ -385,12 +389,14 @@ function downloadKartu(){
       "Bukti-Kelulusan.png";
 
       link.href =
-      canvas.toDataURL("image/png");
+      canvas.toDataURL(
+        "image/png"
+      );
 
       link.click();
 
     });
 
-  },500);
+  },1000);
 
 }
