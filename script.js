@@ -142,9 +142,6 @@ document.body.innerHTML = `
 <div
 class="hasil-container">
 
-<div
-class="hasil-container">
-
 <div class="hasil-asli">
 
   <img
@@ -364,31 +361,31 @@ function downloadKartu(){
 
   kartu.style.display = "block";
 
-  html2canvas(kartu,{
+  setTimeout(()=>{
 
-    scale:2,
+    html2canvas(kartu,{
+      scale:3,
+      useCORS:true,
+      backgroundColor:"#ffffff"
+    }).then(canvas=>{
 
-    useCORS:true,
+      kartu.style.display="none";
 
-    backgroundColor:null
+      const link =
+      document.createElement("a");
 
-  }).then(canvas => {
+      link.download =
+      "Bukti-Kelulusan.png";
 
-    kartu.style.display = "none";
+      link.href =
+      canvas.toDataURL(
+        "image/png"
+      );
 
-    const link =
-    document.createElement("a");
+      link.click();
 
-    link.download =
-    "bukti-kelulusan.png";
+    });
 
-    link.href =
-    canvas.toDataURL(
-      "image/png"
-    );
-
-    link.click();
-
-  });
+  },300);
 
 }
