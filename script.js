@@ -355,7 +355,7 @@ confetti({
   spread:100,
   origin:{ y:0.6 }
 });
-
+}
 
 function downloadKartu(){
 
